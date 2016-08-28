@@ -8,7 +8,6 @@
 <meta name="description" content="" />
 <link rel="stylesheet" type="text/css" href="assets/css/cmn_layout.css" media="all" />
 <link rel="stylesheet" type="text/css" href="assets/css/cmn_style.css" media="all" />
-<link rel="stylesheet" type="text/css" href="assets/css/top.css" media="all" />
 <script type="text/javascript" src="assets/js/jquery.js"></script>
 <script type="text/javascript" src="assets/js/common.js"></script>
 </head>
