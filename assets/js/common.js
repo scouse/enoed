@@ -199,13 +199,3 @@ var opacityOver = function(){
   $(this).css('opacity', 1);
  });
 };
-/* !tableOdd&Event ---------------------------------------------------------------- */
-$(function(){
-	$('.shopdetail_table tr:nth-child(odd)').addClass('odd');
-});
-$(function(){
-	$('.tableSign tr:nth-child(even)').addClass('even');
-});
-$(function(){
-	$('ul li:even').addClass('even');
-});

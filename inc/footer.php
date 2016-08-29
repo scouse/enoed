@@ -1,5 +1,5 @@
 <div id="footerWrap">
-    <p class="pageTop"><a href="#wrapper"><img src="assets/images/common/btn-top01.gif" alt="PAGE TOP"/></a></p>
+    <p class="pageTop"><a href="#wrapper"><img src="assets/images/common/btn-top01.png" alt="PAGE TOP"/></a></p>
     <div class="boxLatesNews">
         <input type="text" placeholder="GET THE LASTEST NEWS" />
         <button>SUBMIT</button>

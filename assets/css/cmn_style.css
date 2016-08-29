@@ -22,7 +22,10 @@ sup   { font-size: 78%; vertical-align: top;}
 sub   { font-size: 78%; vertical-align: baseline;}
 .fz22 { font-size:  22px;}
 .fz27 { font-size:  27px;}
+.fz33 { font-size:  33px;}
 .fz38 { font-size:  38px;}
+.fz42 { font-size:  42px;}
+.fz59 { font-size:  59px;}
 
 /* !Inline Align ------------------------------------------------------------ */
 .taL { text-align: left   !important;}
