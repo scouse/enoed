@@ -720,7 +720,7 @@ background: url(../images/common/ico-link01.png) right center no-repeat; padding
 @media only screen and (max-width: 1200px) {
 
 body{ font-family: Helvetica, Arial !important;}
-#headerLogo { width: 184px; }
+#headerLogo { width: 140px; }
 #headerLogo a { width: 92%; max-width: 169px; padding: 10px 4%; }
 #headerLogo a img { width: 100%;}
 .box_gNavi ul li a { padding: 30px 20px 15px 20px;}
@@ -761,7 +761,7 @@ body { font-size: 13px; }
 .toolSearch a.btnSearch01 { margin: 10px 15px 0 0;}
 #menuMobile { position: absolute; top: 54px; width: 100%;}
 
-#containerWrap { padding-top: 65px; }
+#containerWrap { padding-top: 56px; }
 .sectionTop01 .boxLink01 a { font-size: 13px;}
 
 .boxSubmenu02 {}
