@@ -7,13 +7,14 @@
 
 
 /* !stack ------------------------------------------------------------------- */
-jQuery(document).ready(function($) {
+jQuery(document).ready(function() {
 	pageScroll();
 	rollover();
-	popWindow();
-	localNav();
 	addCss();
-	opacityOver();
+        subMenu();
+        scrollPageTop();
+        
+        
 });
 
 
@@ -35,36 +36,36 @@ var isUA = (function(){
 
 /* !rollover ---------------------------------------------------------------- */
 var rollover = function(){
-	var suffix = { normal : '_no.', over   : '_on.'}
-	$('a.over, img.over, input.over').each(function(){
-		var a = null;
-		var img = null;
+    var suffix = { normal : '_no.', over   : '_on.'}
+    $('a.over, img.over, input.over').each(function(){
+            var a = null;
+            var img = null;
 
-		var elem = $(this).get(0);
-		if( elem.nodeName.toLowerCase() == 'a' ){
-			a = $(this);
-			img = $('img',this);
-		}else if( elem.nodeName.toLowerCase() == 'img' || elem.nodeName.toLowerCase() == 'input' ){
-			img = $(this);
-		}
+            var elem = $(this).get(0);
+            if( elem.nodeName.toLowerCase() == 'a' ){
+                    a = $(this);
+                    img = $('img',this);
+            }else if( elem.nodeName.toLowerCase() == 'img' || elem.nodeName.toLowerCase() == 'input' ){
+                    img = $(this);
+            }
 
-		var src_no = img.attr('src');
-		var src_on = src_no.replace(suffix.normal, suffix.over);
+            var src_no = img.attr('src');
+            var src_on = src_no.replace(suffix.normal, suffix.over);
 
-		if( elem.nodeName.toLowerCase() == 'a' ){
-			a.bind("mouseover focus",function(){ img.attr('src',src_on); })
-			 .bind("mouseout blur",  function(){ img.attr('src',src_no); });
-		}else if( elem.nodeName.toLowerCase() == 'img' ){
-			img.bind("mouseover",function(){ img.attr('src',src_on); })
-			   .bind("mouseout", function(){ img.attr('src',src_no); });
-		}else if( elem.nodeName.toLowerCase() == 'input' ){
-			img.bind("mouseover focus",function(){ img.attr('src',src_on); })
-			   .bind("mouseout blur",  function(){ img.attr('src',src_no); });
-		}
+            if( elem.nodeName.toLowerCase() == 'a' ){
+                    a.bind("mouseover focus",function(){ img.attr('src',src_on); })
+                     .bind("mouseout blur",  function(){ img.attr('src',src_no); });
+            }else if( elem.nodeName.toLowerCase() == 'img' ){
+                    img.bind("mouseover",function(){ img.attr('src',src_on); })
+                       .bind("mouseout", function(){ img.attr('src',src_no); });
+            }else if( elem.nodeName.toLowerCase() == 'input' ){
+                    img.bind("mouseover focus",function(){ img.attr('src',src_on); })
+                       .bind("mouseout blur",  function(){ img.attr('src',src_no); });
+            }
 
-		var cacheimg = document.createElement('img');
-		cacheimg.src = src_on;
-	});
+            var cacheimg = document.createElement('img');
+            cacheimg.src = src_on;
+    });
 };
 /* !pageScroll -------------------------------------------------------------- */
 var pageScroll = function(){
@@ -86,83 +87,8 @@ var pageScroll = function(){
 			return false;
 		});
 	});
-}
-/* !localNav ---------------------------------------------------------------- */
-var localNav = function(){
-	var navClass = document.body.className.toLowerCase(),
-		parent = $("#lNavi"),
-		prefix = 'lNav',
-		current = 'current',
-		regex = {
-			a  : /l/,
-			dp : [
-				/l[\d]+_[\d]+_[\d]+_[\d]+/,
-				/l[\d]+_[\d]+_[\d]+/,
-				/l[\d]+_[\d]+/,
-				/l[\d]+/
-			]
-		},
-		route = [],
-		i,
-		l,
-		temp,
-		node;
+};
 
-	$("ul ul", parent).hide();
-
-	if( navClass.indexOf("ldef") >= -1 ){
-		for(i = 0, l = regex.dp.length; i < l; i++){
-			temp = regex.dp[i].exec( navClass );
-			if( temp ){
-				route[i] = temp[0].replace(regex.a, prefix);
-			}
-		}
-		///console.log(route);
-		if( route[0] ){
-			// depth 4
-			node = $("a."+route[0], parent);
-			node.addClass(current);
-			node.next().show();
-			node.parent().parent().show()
-				.parent().parent().show()
-				.parent().parent().show();
-			node.parent().parent().prev().addClass('parent');
-			node.parent().parent()
-				.parent().parent().prev().addClass('parent');
-			node.parent().parent()
-				.parent().parent()
-				.parent().parent().prev().addClass('parent');
-
-		}else if( route[1] ){
-			// depth 3
-			node = $("a."+route[1], parent);
-			node.addClass(current);
-			node.next().show();
-			node.parent().parent().show()
-				.parent().parent().show();
-			node.parent().parent().prev().addClass('parent');
-			node.parent().parent()
-				.parent().parent().prev().addClass('parent');
-
-
-		}else if( route[2] ){
-			// depth 2
-			node = $("a."+route[2], parent);
-			node.addClass(current);
-			node.next().show();
-			node.parent().parent().show();
-			node.parent().parent().prev().addClass('parent');
-
-		}else if( route[3] ){
-			// depth 1
-			node = $("a."+route[3], parent);
-			node.addClass(current);
-			node.next().show();
-
-		}else{
-		}
-	}
-}
 /* !popWindow --------------------------------------------------------------- */
 var popWindow = function (){
 	var param = null;
@@ -180,7 +106,7 @@ var popWindow = function (){
 			return false;
 		});
 	});
-}
+};
 /* !defFunc ----------------------------------------------------------------- */
 var defFunc = (function(){
 	Print = function(){ window.print(); return false;}
@@ -191,11 +117,31 @@ var addCss = (function(){
 	$('li:first-child:not(:last-child)').addClass('first');
 	$('li:last-child').addClass('last');
 });
-/* !opacityOver ---------------------------------------------------------------- */
-var opacityOver = function(){
- $('.opacityOver').hover(function(){
-  $(this).css('opacity', 0.7);
+/* !subMenu ---------------------------------------------------------------- */
+var subMenu = function(){
+ $('#subMenu li').hover(function(){
+  $(this).addClass('active');
  },function(){
-  $(this).css('opacity', 1);
+  $(this).removeClass('active');
  });
+};
+/* !scrollPageTop ---------------------------------------------------------------- */
+var scrollPageTop = function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+                $('.pageTop').fadeIn();
+        }else {
+                $('.pageTop').fadeOut();
+        }
+        
+        console.log($('#footerWrap').offset().top);
+        var breakPoint = $('#footerWrap').offset().top - 809;
+        if($(this).scrollTop() >= breakPoint){
+            $('.pageTop').addClass('nofixed');
+        }else{
+            $('.pageTop').removeClass('nofixed');
+        }
+    });
+    
+    
 };

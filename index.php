@@ -14,8 +14,10 @@
 <script type="text/javascript" src="assets/js/jquery.js"></script>
 <script type="text/javascript" src="assets/js/common.js"></script>
 <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+<script src="assets/js/jquery.sticky-kit.min.js" type="text/javascript"></script>
 <script type="text/javascript">
     $(document).ready(function(){
+        $("#boxSubMenu").stick_in_parent();
         $('.owl-carousel').owlCarousel({
             loop:true,
             margin:10,
@@ -26,13 +28,11 @@
                     nav:true
                 },
                 600:{
-                    items:3,
-                    nav:false
+                    items:3
                 },
                 1000:{
                     items:5,
-                    nav:true,
-                    loop:false
+                    nav:true
                 }
             }
         });
@@ -57,67 +57,69 @@
 		<div id="container" class="clearfix">
 
 			<div id="contents" class="clearfix">
-				<div id="main01">
-                                    <div class="sectionTop01">
-                                        <div class="boxLink01 clearfix">
-                                            <a href="#" class="flL">FEATURED COURSES</a>
-                                            <a href="#" class="flR">POPULAR COURSES</a>
+                            <div id="main01">
+                                <div class="sectionTop01">
+                                    <div class="boxLink01 clearfix">
+                                        <a href="#" class="flL">FEATURED COURSES</a>
+                                        <a href="#" class="flR">POPULAR COURSES</a>
+                                    </div>
+                                    <div class="boxMainTopWrap">
+                                        <div class="boxMainTop01">
+                                            <img src="assets/images/top/img-top01.png" alt="" />
+                                            <div class="boxTopDetail01">
+                                                <p class="ttl_top01">PUBLIC COURSES</p>
+                                                <p class="ttl_date01">
+                                                    <span class="date">18</span>
+                                                    <span class="month">OCT</span>
+                                                    <span class="year">2016</span>
+                                                </p>
+                                            </div>
+                                            <div class="boxTopDetail02">
+                                                <p class="ttl_top02">The Thailand Dream.</p>
+                                                <p class="txtDetail01">
+                                                    หลังจากที่มีบัตรเชิญจากทาง Apple เปิดเผยออกมาคาดว่า iPhone 7 จะเปิดตัวในงานนี้ แต่อย่างเพิ่งคิดว่า Apple จะไม่มีอะไรแอบซ่อน เพราะสำนักข่าว Bloomberg ได้มีข้อมูลเปิดเผยว่า Apple เตรียมเปิดตัวอีก 3 สินค้าใหม่ที่น่าในใจไม่น้อย
+                                                </p>
+                                                <a href="#" class="link_learnmore01">LEARN MORE</a>
+                                            </div>
                                         </div>
-                                        <div class="boxMainTopWrap">
-                                            <div class="boxMainTop01">
-                                                <img src="assets/images/top/img-top01.png" alt="" />
-                                                <div class="boxTopDetail01">
-                                                    <p class="ttl_top01">PUBLIC COURSES</p>
-                                                    <p class="ttl_date01">
-                                                        <span class="date">18</span>
-                                                        <span class="month">OCT</span>
-                                                        <span class="year">2016</span>
-                                                    </p>
-                                                </div>
-                                                <div class="boxTopDetail02">
-                                                    <p class="ttl_top02">The Thailand Dream.</p>
-                                                    <p class="txtDetail01">
-                                                        Curabitur ultricies tristique interdum. Phasellus nulla elit,sit ameturna
-                                                        a, semper gravida velit curageultricies tristique interdum. Phasellus 
-                                                        the value of favorite courses.
-                                                    </p>
+
+                                        <div class="boxMainTop02">
+                                            <div class="boxTopDetail03Wrap">
+                                                <img src="assets/images/top/img-top02.png" alt="#" />
+                                                <div class="boxTxtDetail">
+                                                    <p class="ttl_top03">Think outside the box,<br> Or just get rid of the box ?</p>
                                                     <a href="#" class="link_learnmore01">LEARN MORE</a>
                                                 </div>
                                             </div>
-                                            
-                                            <div class="boxMainTop02">
-                                                <div class="boxTopDetail03Wrap">
-                                                    <img src="assets/images/top/img-top02.png" alt="#" />
+                                            <div class="boxMainTop02In">
+                                                <div class="boxTopDetail04Wrap">
+                                                    <img src="assets/images/top/img-top03.png" alt="#" />
                                                     <div class="boxTxtDetail">
-                                                        <p class="ttl_top03">Think outside the box,<br> Or just get rid of the box ?</p>
+                                                        <p class="ttl_top03">Business Simulation </p>
+                                                        <p class="ttl_top04"><span class="fz27">for</span><span class="fz38">#Startup</span> <br><span class="fz22">& Entrepreneur.</span></p>
+                                                    </div>
+                                                    <a href="#" class="link_learnmore01 bottom">LEARN MORE</a>
+                                                </div>
+                                                <div class="boxTopDetail05Wrap">
+                                                    <img src="assets/images/top/img-top04.png" alt="#" />
+                                                    <div class="boxTxtDetail">
+                                                        <p class="ttl_top03">What is Thailand 4.0 ?</p>
+                                                        <p class="txtDetail01">
+                                                            Full detials & information ; New country business<br>
+                                                            gravida velition sam the value of favorite courses.
+                                                        </p>
                                                         <a href="#" class="link_learnmore01">LEARN MORE</a>
                                                     </div>
                                                 </div>
-                                                <div class="boxMainTop02In">
-                                                    <div class="boxTopDetail04Wrap">
-                                                        <img src="assets/images/top/img-top03.png" alt="#" />
-                                                        <div class="boxTxtDetail">
-                                                            <p class="ttl_top03">Business Simulation </p>
-                                                            <p class="ttl_top04"><span class="fz27">for</span><span class="fz38">#Startup</span> <br><span class="fz22">& Entrepreneur.</span></p>
-                                                        </div>
-                                                        <a href="#" class="link_learnmore01 bottom">LEARN MORE</a>
-                                                    </div>
-                                                    <div class="boxTopDetail05Wrap">
-                                                        <img src="assets/images/top/img-top04.png" alt="#" />
-                                                        <div class="boxTxtDetail">
-                                                            <p class="ttl_top03">What is Thailand 4.0 ?</p>
-                                                            <p class="txtDetail01">
-                                                                Full detials & information ; New country business<br>
-                                                                gravida velition sam the value of favorite courses.
-                                                            </p>
-                                                            <a href="#" class="link_learnmore01">LEARN MORE</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                             </div>
-                                        <!--boxMainTopWrap--></div>
-                                    <!-- /sectionTop01 --></div>
-                                    
+                                        </div>
+                                    <!--boxMainTopWrap--></div>
+                                <!-- /sectionTop01 --></div>
+
+                                <div class="sectionWrap01">
+                                    <div id="boxSubMenu" class="boxSubmenu01">
+                                        <?php include('/inc/submenu.php'); ?>
+                                     <!-- boxSubmenu01--></div>
                                     <div class="sectionTop02">
                                         <div class="boxPopular01">
                                             <div class="boxTtlBasic01 clearfix">
@@ -128,14 +130,14 @@
                                                     <img src="assets/images/top/DeOne-Web-UI-01-Home-V4_05.png" alt="#" />
                                                     <p class="sttl_basic01">Team Leadership</p>
                                                     <p class="txt_basic01">
-                                                        Full detials & information ; New country business gravida velition sam the value of favorite courses. Full detials & inform.
+                                                        detials เต็ม และข้อมูล ; ธุรกิจใหม่ ประเทศ Gravida velition แซม ค่าของ หลักสูตร ที่ชื่นชอบ detials เต็ม และ แจ้ง
                                                     </p>
                                                 </div>
                                                 <div class="contentList">
                                                     <img src="assets/images/top/DeOne-Web-UI-01-Home-V4_05.png" alt="#" />
                                                     <p class="sttl_basic01">Executive Leadership</p>
                                                     <p class="txt_basic01">
-                                                        Full detials & information ; New country business gravida velition sam the value of favorite courses. Full detials & inform.
+                                                        หลังจากที่มีบัตรเชิญจากทาง Apple เปิดเผยออกมาคาดว่า iPhone 7 จะเปิดตัวในงานนี้ แต่อย่างเพิ่งคิดว่า Apple จะไม่มีอะไรแอบซ่อน เพราะสำนักข่าว Bloomberg ได้มีข้อมูลเปิดเผยว่า Apple เตรียมเปิดตัวอีก 3 สินค้าใหม่ที่น่าในใจไม่น้อย
                                                     </p>
                                                 </div>
                                                 <div class="contentList">
@@ -194,10 +196,10 @@
                                                         Full detials & information ; New country business gravida velition sam the value of favorite courses. Full detials & inform.
                                                     </p>
                                                 </div>
-                                                
+
                                             </div>
                                         <!--boxPopular01--></div>
-                                        
+
                                         <div class="boxNewCourse01">
                                             <div class="boxTtlBasic01 clearfix">
                                                 <p class="ttl_basic01 flL">NEW COURSES</p>
@@ -234,9 +236,9 @@
                                                 </li>
                                             </ul>
                                         <!--boxNewCourse01--></div>
-                                        
+
                                     <!-- /sectionTop02 --></div>
-                                    
+
                                     <div class="sectionTop03">
                                         <div class="boxPublicCourse01">
                                             <div class="boxTtlBasic01 clearfix">
@@ -319,7 +321,7 @@
                                             </ul>
                                         <!--boxPublicCourse01--></div>
                                     <!--sectionTop03--></div>
-                                    
+
                                     <div class="sectionTop02 pb20">
                                         <div class="boxTtlBasic01 clearfix">
                                             <p class="ttl_basic01 flL">SIGNATURE COURSES</p>
@@ -373,7 +375,7 @@
                                             </li>
                                         </ul>
                                     <!--sectionTop02--></div>
-                                    
+
                                     <div class="sectionTop03 pb20">
                                         <div class="boxTtlBasic01 clearfix">
                                             <p class="ttl_basic01 flL">EVENTS</p>
@@ -435,9 +437,9 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        
+
                                     <!--sectionTop01--></div>
-                                    
+
                                     <div class="sectionTop02">
                                         <div class="boxTtlBasic01 clearfix">
                                             <p class="ttl_basic01 flL">BLOG</p>
@@ -478,20 +480,19 @@
                                             </ul>
                                         </div>
                                     <!--sectionTop02--></div>
-                                    
-                                    <div class="boxInspiration">
-                                        <p class="txtIns01">Daily Inspiration</p>
-                                        <p class="txtIns02">
-                                            Teachers open the door,<br>
-                                            But you must enter by Yourself.
-                                        </p>
-                                        <p class="txtIns03">Chinese Proverb.</p>
-                                        <a href="#" class="btnShare01"><img src="assets/images/common/btn-share01.png" alt="#" /></a>
-                                    </div>
-				<!-- /main01 --></div>
-				<div id="sub01">
-					
-				<!-- /sub01 --></div>
+                                <!--sectionWrap01--></div>
+
+                                <div class="boxInspiration">
+                                    <p class="txtIns01">Daily Inspiration</p>
+                                    <p class="txtIns02">
+                                        Teachers open the door,<br>
+                                        But you must enter by Yourself.
+                                    </p>
+                                    <p class="txtIns03">Chinese Proverb.</p>
+                                    <a href="#" class="btnShare01"><img src="assets/images/common/btn-share01.png" alt="#" /></a>
+                                </div>
+                            <!-- /main01 --></div>
+                                
 			<!-- /contents --></div>
 
 		<!-- /container --></div>

@@ -2700,7 +2700,7 @@
 	Navigation.Defaults = {
 		nav: false,
 		navRewind: true,
-		navText: [ 'prev', 'next' ],
+		navText: [ '<', '>' ],
 		navSpeed: false,
 		navElement: 'div',
 		navContainer: false,
@@ -2754,8 +2754,8 @@
 		}, this));
 
 		// create DOM structure for relative navigation
-		$container = options.navContainer ? $(options.navContainer)
-			: $('<div>').addClass(options.navContainerClass).prependTo(this._controls.$container);
+//		$container = options.navContainer ? $(options.navContainer)
+//			: $('<div>').addClass(options.navContainerClass).prependTo(this._controls.$container);
 
 		this._controls.$next = $('<' + options.navElement + '>');
 		this._controls.$previous = this._controls.$next.clone();
@@ -2764,7 +2764,8 @@
 			.addClass(options.navClass[0])
 			.html(options.navText[0])
 			.hide()
-			.prependTo($container)
+//			.prependTo($container)
+			.prependTo('.owl-controls')
 			.on('click', $.proxy(function(e) {
 				this.prev(options.navSpeed);
 			}, this));
@@ -2772,7 +2773,8 @@
 			.addClass(options.navClass[1])
 			.html(options.navText[1])
 			.hide()
-			.appendTo($container)
+//			.appendTo($container)
+                        .appendTo('.owl-controls')
 			.on('click', $.proxy(function(e) {
 				this.next(options.navSpeed);
 			}, this));
