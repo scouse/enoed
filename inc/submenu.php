@@ -1,5 +1,6 @@
 <div id="subMenu" class="subMenu01">
     <div class="logo_submenu01"><img src="assets/images/common/logo02.png" alt="DeOne" /></div>
+    <div class="ttlSubmenu01 mobileMode">Explore All Course</div>
 
     <ul class="list_submenu01">
         <li>

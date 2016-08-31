@@ -38,7 +38,8 @@
                             <li><a href="#">Public</a></li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Contact Us</a>
+                            </li>
                         </ul>
                     <!-- menuMobile--></div>
                     

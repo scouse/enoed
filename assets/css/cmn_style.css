@@ -185,3 +185,15 @@ sub   { font-size: 78%; vertical-align: baseline;}
 .pl40 { padding-left:40px !important;}
 .pl45 { padding-left:45px !important;}
 .pl50 { padding-left:50px !important;}
+
+
+
+@media only screen and (max-width: 1024px) {
+/* reset font size */
+.fz22 { font-size:  16px;}
+.fz27 { font-size:  19px;}
+.fz33 { font-size:  21px;}
+.fz38 { font-size:  23px;}
+.fz42 { font-size:  25px;}
+.fz59 { font-size:  29px;}
+}

@@ -22,7 +22,7 @@
         
         $('#menuMobileTemplate').slicknav();
         $('#menuClose').slicknav('close');
-        $("#boxSubMenu").stick_in_parent();
+        $("#boxSubMenu").stick_in_parent({offset_top: 20});
         $('.owl-carousel').owlCarousel({
             loop:true,
             margin:10,
@@ -123,6 +123,9 @@
 
                                 <div class="sectionWrap01">
                                     <div id="boxSubMenu" class="boxSubmenu01">
+                                        <?php include('/inc/submenu.php'); ?>
+                                     <!-- boxSubmenu01--></div>
+                                    <div class="boxSubmenu02 mobileMode">
                                         <?php include('/inc/submenu.php'); ?>
                                      <!-- boxSubmenu01--></div>
                                     <div class="sectionTop02">

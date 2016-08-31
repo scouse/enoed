@@ -143,8 +143,11 @@ body { text-align: center;}
 /* !header
 ---------------------------------------------------------- */
 #headerWrap {
-	background: #fff;
-        border-bottom: 1px solid #F1EEED;
+    position: fixed;
+    z-index: 10;
+    background: #fff;
+    border-bottom: 1px solid #F1EEED;
+    width: 100%;
 }
 	#header {
 		position: relative;
@@ -334,9 +337,7 @@ select.btnChangelang {
 	
 /* !containerWrap
 ---------------------------------------------------------- */
-#containerWrap {
-	
-}
+#containerWrap { padding-top: 67px;}
 	#container {
 		margin: 0 auto;
 		width: 100%;
@@ -561,6 +562,7 @@ background: url(../images/common/ico-link01.png) right center no-repeat; padding
     line-height: 1;}
 .boxSignature01 .owl-nav { display: none;}
 .boxSignature01 .owl-controls {position: absolute; width: 100%; margin-top: -50px;}
+.boxSignature01 .owl-controls .owl-prev, .boxSignature01 .owl-controls .owl-next { display: none !important;}
 .boxSignature01 .owl-dot span { border-radius: 2px !important;}
 .boxSignature01  .owl-dots .owl-dot.active span, .boxSignature01  .owl-dots .owl-dot:hover span { background: #fff !important;}
 
@@ -569,11 +571,11 @@ background: url(../images/common/ico-link01.png) right center no-repeat; padding
 .boxEvent01 .flL img { width: 100%;}
 .boxEvent01 .flR { width: 33%; margin-left: 2%;}
 .linkEvent01 { font-family: Montserrat; font-size: 16px; color: #6d6e71; text-decoration: none; 
-              background: url(../images/common/ico-link02.png) right center no-repeat; padding: 10px 27px 5px 0;
+              background: url(../images/common/ico-link02.png) 99% center no-repeat; padding: 10px 27px 5px 0;
                 display: block;}
 
 .boxInspiration { text-align: center; background: #f6f6f6; border-bottom: 1px solid #F1EEED; padding: 40px 0;}
-.txtIns01 { position: relative; width: 25%; margin: 0 auto 20px auto; font-family: Arcon-Rounded-Regular; font-size: 19px; color: #6d6e71;}
+.txtIns01 { position: relative; width: 30%; margin: 0 auto 20px auto; font-family: Arcon-Rounded-Regular; font-size: 19px; color: #6d6e71;}
 .txtIns01:before { 
     content: '';
     position: absolute; 
@@ -619,7 +621,7 @@ background: url(../images/common/ico-link01.png) right center no-repeat; padding
      
 /* !submenu
 ---------------------------------------------------------- */
-.boxSubmenu01 { position: absolute; left: 20px; top: -20px; z-index: 99; -webkit-box-shadow: 0px 0px 5px 2px rgba(217,217,217,1);
+.boxSubmenu01 { position: absolute; left: 20px; top: -20px; z-index: 9; -webkit-box-shadow: 0px 0px 5px 2px rgba(217,217,217,1);
 -moz-box-shadow: 0px 0px 5px 2px rgba(217,217,217,1); box-shadow: 0px 0px 5px 2px rgba(217,217,217,1);}
 .subMenu01 { width: 220px; background: #b61d22; color: #db8e91;}
 .subMenu01 a { font-family: Arcon-Rounded-Regular; font-size: 14px;}
@@ -718,7 +720,7 @@ background: url(../images/common/ico-link01.png) right center no-repeat; padding
 @media only screen and (max-width: 1200px) {
 
 body{ font-family: Helvetica, Arial !important;}
-#headerLogo { width: 16%; min-width: 130px;}
+#headerLogo { width: 130px; }
 #headerLogo a { width: 92%; max-width: 169px; padding: 10px 4%; }
 #headerLogo a img { width: 100%;}
 .box_gNavi ul li a { padding: 30px 20px 15px 20px;}
@@ -759,39 +761,63 @@ body { font-size: 12px; }
 .toolSearch a.btnSearch01 { margin: 10px 15px 0 0;}
 #menuMobile { position: absolute; top: 54px; width: 100%;}
 
+#containerWrap { padding-top: 52px; }
+.sectionTop01 .boxLink01 a { font-size: 13px;}
+
+.boxSubmenu02 {}
+.boxSubmenu02 .subMenu01 { width: 100%;}
+.boxSubmenu02 .subMenu01 .ttlSubmenu01 { color: #fff; display: block; padding: 13px 15px 8px 15px;
+    background: url(../images/common/ico-arrow-d01.png) 98% center no-repeat;}
+ 
+.boxPopular01 .owl-prev, .boxPopular01 .owl-next { display: none !important;}
+.sttl_signature01 { right: 10px; top: 10px;}
+.boxSignature01 .owl-controls { margin-top: -20px;}
+.boxFooter01 ul li a img { max-width: 33px;}
+.ttl_date01 span.date { font-size: 20px;}
+.boxTtlBasic01 {  padding: 20px 1% 10px 0;}
 
 /* control disappear */
 .txtIns02:before, .txtIns02:after { display: none; }
-.boxSubmenu01, .box_gNavi, #menuMobileTemplate { display: none !important;}
+.boxSubmenu01, .box_gNavi, #menuMobileTemplate, .logo_submenu01 { display: none !important;}
 .mobileMode { display: block;}
+
 
 
 }
 
 @media only screen and (max-width: 992px) {
-.boxMainTopWrap .boxMainTop01, .boxMainTopWrap .boxMainTop02, .boxMainTop02In { width: 100%; margin-bottom: 20px; }
+.boxMainTopWrap .boxMainTop01, .boxMainTopWrap .boxMainTop02, .boxMainTop02In { width: 100%; margin-bottom: 10px; }
+.boxMainTop02In { margin-bottom: 0px;}
 .sectionTop02, .sectionTop03 { padding-left: 20px; padding-right: 20px }
 .boxMainTop02In { position: relative; }
 .list_basic01 li { width: 49%; padding-bottom: 20px; }
 
 .sectionTop01 { padding-bottom: 0px; }
+.txtIns01:before , .txtIns01:after { display: none;}
+.boxPopular01 .owl-controls { top: -30px;}
 }
 
 @media only screen and (max-width: 767px) {
-    .list_basic01 li, .list_basic02 li { width: 49%; padding-bottom: 20px; }
+    .list_basic01 li, .list_basic02 li { width: 49%; padding-bottom: 20px; margin-bottom: 5px; }
     .txtIns02 { font-size: 30px; }
 }
 
 @media only screen and (max-width: 600px) {
     .list_basic01 li, .list_basic02 li { width: 100%; padding-bottom: 20px; }
     .txtIns02 { font-size: 30px; }
-    .boxTopDetail04Wrap , .boxTopDetail05Wrap { width: 100%; margin-left: 0; padding-bottom: 20px; }
+    .boxTopDetail04Wrap , .boxTopDetail05Wrap { width: 100%; margin-left: 0; padding-bottom: 10px; }
+    .boxTopDetail05Wrap { padding-bottom: 0;}
 
     .boxTopDetail04Wrap .link_learnmore01, .boxTopDetail05Wrap .boxTxtDetail{ bottom: 30px;}
     .boxTopDetail03Wrap .boxMainTop02 .boxTxtDetail{ bottom: 10px;}
     .bar-head-red { display: block; }
     .listSignature01 .ttl_signature01, .boxMainTop01 .ttl_top01 { display: none; }
-    .boxMainTop01 .ttl_date01 { top: 70px; }
+    .boxMainTop01 .ttl_date01 { top: 0px; padding: 7px 10px;}
     .boxLink01 a { padding: 10px 10px 5px 10px; font-size: 14px; }
     .boxMainTop01 .boxTopDetail02 .ttl_top02 { font-size: 20px; }
+}
+
+@media only screen and (max-width: 480px){
+    .boxMainTop01 .boxTopDetail02 .txtDetail01 { font-size: 12px; margin-bottom: 10px;}
+    .boxPopular01 .owl-controls { top: -5px;}
 }
