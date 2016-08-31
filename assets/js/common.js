@@ -134,7 +134,6 @@ var scrollPageTop = function(){
                 $('.pageTop').fadeOut();
         }
         
-        console.log($('#footerWrap').offset().top);
         var breakPoint = $('#footerWrap').offset().top - 809;
         if($(this).scrollTop() >= breakPoint){
             $('.pageTop').addClass('nofixed');

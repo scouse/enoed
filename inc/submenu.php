@@ -1,5 +1,4 @@
 <div id="subMenu" class="subMenu01">
-    <button><img src="assets/images/common/btn-menu-sub01.png" /></button>
     <div class="logo_submenu01"><img src="assets/images/common/logo02.png" alt="DeOne" /></div>
 
     <ul class="list_submenu01">

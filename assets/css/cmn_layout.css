@@ -68,7 +68,15 @@ a
 { text-decoration: none;  }
 abbr, acronym
 { border: 0;}
+::-moz-selection {
+    background: #ffbdc0;
+    text-shadow: none;
+}
 
+::selection {
+    background: #ffbdc0;
+    text-shadow: none;
+}
 /* !Reset Module
 ---------------------------------------------------------- */
 .reset div, .reset dl, .reset dt, .reset dd, .reset ul, .reset ol, .reset li, .reset h1, .reset h2, .reset h3, .reset h4, .reset h5, .reset h6,
@@ -150,11 +158,10 @@ body { text-align: center;}
 		}
 		#headerLogo {
                     float: left;
-                    margin-right: 25px;
 		}
                     #headerLogo a { 
                         display: block;
-                        padding: 10px 45px;
+                        padding: 10px 25px;
                     }
 		#headerLinks {
                     position: absolute;
@@ -688,6 +695,21 @@ background: url(../images/common/ico-link01.png) right center no-repeat; padding
 .section       { /* Basic Section */ }
 
 
+
+
+.mobileMode, #menuMobileTemplate { display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
 .clear { clear: both; }
 .img-responsive { max-width: 100%; }
 .img-center { margin:0 auto; }
@@ -695,6 +717,11 @@ background: url(../images/common/ico-link01.png) right center no-repeat; padding
 
 @media only screen and (max-width: 1200px) {
 
+body{ font-family: Helvetica, Arial !important;}
+#headerLogo { width: 16%; min-width: 130px;}
+#headerLogo a { width: 92%; max-width: 169px; padding: 10px 4%; }
+#headerLogo a img { width: 100%;}
+.box_gNavi ul li a { padding: 30px 20px 15px 20px;}
 
 .boxMainTop02 .boxTxtDetail .ttl_top03 { font-size: 18px; }
 .txtIns02 { font-size: 40px; }
@@ -724,9 +751,19 @@ body { font-size: 12px; }
 .txtIns01 { width: 40%;}
 .btnShare01 { display: block; width: 13%; margin: 0 auto;}
 
+#headerWrap { position: fixed; width: 100%; z-index: 9999;}
+#headerLogo { float: none; margin: 0 auto;}
+.toolSearch { display: block; float: right; overflow: hidden;}
+.toolSearch a { float: left; text-decoration: none; }
+.toolSearch a.btnChangelang02 { border: 1px solid #6d6e71; color: #6d6e71; padding: 3px 5px; margin: 15px 15px 0 0;}
+.toolSearch a.btnSearch01 { margin: 10px 15px 0 0;}
+#menuMobile { position: absolute; top: 54px; width: 100%;}
+
+
 /* control disappear */
 .txtIns02:before, .txtIns02:after { display: none; }
-.boxSubmenu01 { display: none;}
+.boxSubmenu01, .box_gNavi, #menuMobileTemplate { display: none !important;}
+.mobileMode { display: block;}
 
 
 }
