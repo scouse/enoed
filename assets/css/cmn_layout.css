@@ -283,7 +283,7 @@ select.btnChangelang {
 			
 /* !footerLinks
 ---------------------------------------------------------- */
-#footerLinks { margin-bottom: 20px;}
+#footerLinks { margin-bottom: 20px; overflow: hidden;}
 #footerLinks ul {
     overflow: hidden;
     width: 60%;
@@ -720,7 +720,7 @@ background: url(../images/common/ico-link01.png) right center no-repeat; padding
 @media only screen and (max-width: 1200px) {
 
 body{ font-family: Helvetica, Arial !important;}
-#headerLogo { width: 130px; }
+#headerLogo { width: 184px; }
 #headerLogo a { width: 92%; max-width: 169px; padding: 10px 4%; }
 #headerLogo a img { width: 100%;}
 .box_gNavi ul li a { padding: 30px 20px 15px 20px;}
@@ -744,14 +744,14 @@ img.img-center { margin:0 auto; }
     width: 50%;
     padding: 0 25%;
 }
-body { font-size: 12px; }
+body { font-size: 13px; }
 .boxMainTop02 .boxTxtDetail .ttl_top03, .ttl_date01 span.date, .ttl_date01 span.month, .ttl_date01 span.year { font-size: 18px; }
 .txtCourseDate01 span.date { font-size: 20px; }
 .txtCourseDate01 span.month{ font-size: 14px; }
 .txtCourseDate01 span.year { font-size: 14px; }
 
 .txtIns01 { width: 40%;}
-.btnShare01 { display: block; width: 13%; margin: 0 auto;}
+.btnShare01 { display: block; width: 13%; min-width: 80px; margin: 0 auto;}
 
 #headerWrap { position: fixed; width: 100%; z-index: 9999;}
 #headerLogo { float: none; margin: 0 auto;}
@@ -761,13 +761,13 @@ body { font-size: 12px; }
 .toolSearch a.btnSearch01 { margin: 10px 15px 0 0;}
 #menuMobile { position: absolute; top: 54px; width: 100%;}
 
-#containerWrap { padding-top: 52px; }
+#containerWrap { padding-top: 65px; }
 .sectionTop01 .boxLink01 a { font-size: 13px;}
 
 .boxSubmenu02 {}
 .boxSubmenu02 .subMenu01 { width: 100%;}
 .boxSubmenu02 .subMenu01 .ttlSubmenu01 { color: #fff; display: block; padding: 13px 15px 8px 15px;
-    background: url(../images/common/ico-arrow-d01.png) 98% center no-repeat;}
+    background: url(../images/common/ico-arrow-d01.png) 98% center no-repeat; text-decoration: none;}
  
 .boxPopular01 .owl-prev, .boxPopular01 .owl-next { display: none !important;}
 .sttl_signature01 { right: 10px; top: 10px;}
@@ -775,6 +775,15 @@ body { font-size: 12px; }
 .boxFooter01 ul li a img { max-width: 33px;}
 .ttl_date01 span.date { font-size: 20px;}
 .boxTtlBasic01 {  padding: 20px 1% 10px 0;}
+
+.subMenuBody { display: none;}
+.list_submenu01 li:hover > ul { display: none;}
+.list_submenu01 li > ul { position: inherit; left: 0;}
+/*.list_submenu01 li > ul > li.first { display: none;}*/
+.list_submenu01 > li.open > a { color: #fff; background: #981b1e url(../images/common/ico-arrow-r02.png) 98% center no-repeat;}
+.list_submenu01 > li > a:after, .list_submenu01 > li > a:before, .list_submenu01 > li > a:hover:after , .list_submenu01 > li.last > a:after,
+.list_submenu01 li > ul > li a:after, .list_submenu01 li > ul > li a:before{ width: 100%; left: 0;}
+
 
 /* control disappear */
 .txtIns02:before, .txtIns02:after { display: none; }
@@ -800,6 +809,8 @@ body { font-size: 12px; }
 @media only screen and (max-width: 767px) {
     .list_basic01 li, .list_basic02 li { width: 49%; padding-bottom: 20px; margin-bottom: 5px; }
     .txtIns02 { font-size: 30px; }
+    .desktopMode { display: none;}
+    #footerLinks ul { width: 100%; padding: 0 10%;}
 }
 
 @media only screen and (max-width: 600px) {
@@ -820,4 +831,9 @@ body { font-size: 12px; }
 @media only screen and (max-width: 480px){
     .boxMainTop01 .boxTopDetail02 .txtDetail01 { font-size: 12px; margin-bottom: 10px;}
     .boxPopular01 .owl-controls { top: -5px;}
+}
+
+@media only screen and (max-width: 370px){
+    .boxLatesNews input { width: 70%;}
+    .boxLatesNews button { width: 30%; padding: 5px 0;}
 }

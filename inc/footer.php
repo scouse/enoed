@@ -12,8 +12,8 @@
                     <li id="ftLnk02"><a href="#">Signature</a></li>
                     <li id="ftLnk03"><a href="#">InHouse</a></li>
                     <li id="ftLnk04"><a href="#">Public</a></li>
-                    <li id="ftLnk05"><a href="#">Promotion</a></li>
-                    <li id="ftLnk06"><a href="#">Career</a></li>
+                    <li id="ftLnk05" class="desktopMode"><a href="#">Promotion</a></li>
+                    <li id="ftLnk06" class="desktopMode"><a href="#">Career</a></li>
                     <li id="ftLnk07"><a href="#">Contact Us</a></li>
                 </ul>
             <!-- /footerLinks --></div>

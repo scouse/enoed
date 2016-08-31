@@ -13,7 +13,7 @@ jQuery(document).ready(function() {
 	addCss();
         subMenu();
         scrollPageTop();
-        
+        toggleSubMenu();
         
 });
 
@@ -125,6 +125,7 @@ var subMenu = function(){
   $(this).removeClass('active');
  });
 };
+
 /* !scrollPageTop ---------------------------------------------------------------- */
 var scrollPageTop = function(){
     $(window).scroll(function(){
@@ -140,6 +141,28 @@ var scrollPageTop = function(){
         }else{
             $('.pageTop').removeClass('nofixed');
         }
+    });
+    
+};
+/* !toggleSubMenu ---------------------------------------------------------------- */
+var toggleSubMenu = function(){
+    $('a#btnSubMenu').click(function(e){
+        e.preventDefault();
+        $(this).next().slideToggle('slow');
+    });
+    
+    $('.list_submenu01>li>a').click(function(e){
+        e.preventDefault();
+        if($('.list_submenu01>li').hasClass('open')){
+            $('.list_submenu01>li.open ul').slideToggle('slow');
+            $('.list_submenu01>li').removeClass('open');
+        }else{
+            $('.list_submenu01>li>a').next().removeAttr('style');
+            $(this).next().slideToggle('slow');
+            $(this).parent().addClass('open');
+        }
+        
+        
     });
     
     
