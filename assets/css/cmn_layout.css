@@ -750,7 +750,7 @@ body { font-size: 13px; }
 .txtCourseDate01 span.month{ font-size: 14px; }
 .txtCourseDate01 span.year { font-size: 14px; }
 
-.txtIns01 { width: 40%;}
+.txtIns01 { width: 50%; font-size: 16px;}
 .btnShare01 { display: block; width: 13%; min-width: 80px; margin: 0 auto;}
 
 #headerWrap { position: fixed; width: 100%; z-index: 9999;}
@@ -784,6 +784,8 @@ body { font-size: 13px; }
 .list_submenu01 > li > a:after, .list_submenu01 > li > a:before, .list_submenu01 > li > a:hover:after , .list_submenu01 > li.last > a:after,
 .list_submenu01 li > ul > li a:after, .list_submenu01 li > ul > li a:before{ width: 100%; left: 0;}
 
+.boxLatesNews input { width: 250px; border-radius: 0;}
+.boxLatesNews button { width: 105px; padding: 5px 0; margin-left: -2px;}
 
 /* control disappear */
 .txtIns02:before, .txtIns02:after { display: none; }
@@ -810,7 +812,9 @@ body { font-size: 13px; }
     .list_basic01 li, .list_basic02 li { width: 49%; padding-bottom: 20px; margin-bottom: 5px; }
     .txtIns02 { font-size: 30px; }
     .desktopMode { display: none;}
-    #footerLinks ul { width: 100%; padding: 0 10%;}
+    #footerLinks ul { width: 94%; padding: 0 3%;}
+    #footerLinks ul li { width: 25%;}
+    #footerLinks ul li a { font-weight: normal;}
 }
 
 @media only screen and (max-width: 600px) {
@@ -826,6 +830,8 @@ body { font-size: 13px; }
     .boxMainTop01 .ttl_date01 { top: 0px; padding: 7px 10px;}
     .boxLink01 a { padding: 10px 10px 5px 10px; font-size: 14px; }
     .boxMainTop01 .boxTopDetail02 .ttl_top02 { font-size: 20px; }
+    .boxLatesNews input { width: 70%; padding: 6px 15px; border-radius: 0;}
+    .boxLatesNews button { width: 30%; padding: 5px 0; margin-left: -2px;}
 }
 
 @media only screen and (max-width: 480px){
@@ -834,6 +840,6 @@ body { font-size: 13px; }
 }
 
 @media only screen and (max-width: 370px){
-    .boxLatesNews input { width: 70%;}
-    .boxLatesNews button { width: 30%; padding: 5px 0;}
+    .boxLatesNews input { width: 70%; padding: 6px 15px; border-radius: 0;}
+    .boxLatesNews button { width: 30%; padding: 5px 0; margin-left: -2px;}
 }

@@ -19,12 +19,14 @@
 <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
 <script src="assets/js/jquery.sticky-kit.min.js" type="text/javascript"></script>
 <script src="assets/js/jquery.slicknav.js" type="text/javascript"></script>
+<script src="../Seatech/assets/js/jquery.matchHeight.js" type="text/javascript"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         
         $('#menuMobileTemplate').slicknav();
         $('#menuClose').slicknav('close');
         $("#boxSubMenu").stick_in_parent({offset_top: 20});
+        
         $('.owl-carousel').owlCarousel({
             loop:true,
             margin:10,
@@ -53,6 +55,8 @@
                 }
             }
         });
+        
+        $('#listNewCourse01 li, #listPublicCourse01 li, #listSignatureCourse01 li, #listEventCourse01 li , #listBlog01 li').matchHeight({byRow: true});
         
     });
 </script>
@@ -215,7 +219,7 @@
                                                 <p class="ttl_basic01 flL">NEW COURSES</p>
                                                 <div class="flR mt10"><a href="#" class="linkExplore01">Explore all <span class="txtRed01">25</span> New Courses</a></div>
                                             </div>
-                                            <ul class="list_basic01">
+                                            <ul id="listNewCourse01" class="list_basic01">
                                                 <li>
                                                     <img src="assets/images/top/DeOne-Web-UI-01-Home-V4_19.png" alt="#" />
                                                     <p class="sttl_basic01">New Course Edu #1</p>
@@ -255,7 +259,7 @@
                                                 <p class="ttl_basic01 flL">PUBLIC COURSES</p>
                                                 <div class="flR mt10"><a href="#" class="linkExplore01">Explore all <span class="txtRed01">25</span> Public Courses</a></div>
                                             </div>
-                                            <ul class="list_basic02">
+                                            <ul id="listPublicCourse01" class="list_basic02">
                                                 <li>
                                                     <img src="assets/images/top/DeOne-Web-UI-01-Home-V4_30.png" alt="#" />
                                                     <p class="txtCourseDate01">
@@ -361,7 +365,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <ul class="list_basic02">
+                                        <ul id="listSignatureCourse01" class="list_basic02">
                                             <li>
                                                 <img src="assets/images/top/sig2.png" alt="#" />
                                                 <p class="sttl_basic01">Signature Course Edu #1</p>
@@ -417,7 +421,7 @@
                                             <a href="#" class="linkRead02">Continue Reading</a>
                                         </div>
                                         <div class="boxEvent02">
-                                            <ul class="list_basic02">
+                                            <ul  id="listEvent01" class="list_basic02">
                                                 <li>
                                                     <img src="assets/images/top/e2.png" alt="#" />
                                                     <p class="txtCourseDate01">
@@ -454,7 +458,7 @@
                                         <div class="boxTtlBasic01 clearfix">
                                             <p class="ttl_basic01 flL">BLOG</p>
                                             <div class="flR"><a href="#" class="linkExplore01">View all Blog</a></div>
-                                            <ul class="list_basic01 list_blog">
+                                            <ul id="listBlog01" class="list_basic01 list_blog">
                                                 <li>
                                                     <img src="assets/images/top/DeOne-Web-UI-01-Home-V4_19.png" alt="#" />
                                                     <p class="sttl_basic01 grey">New Course Edu #1</p>

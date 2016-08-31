@@ -9,7 +9,7 @@
             <div id="footerLinks">
                 <ul>
                     <li id="ftLnk01"><a href="#">Home</a></li>
-                    <li id="ftLnk02"><a href="#">Signature</a></li>
+                    <li id="ftLnk02" class="desktopMode"><a href="#">Signature</a></li>
                     <li id="ftLnk03"><a href="#">InHouse</a></li>
                     <li id="ftLnk04"><a href="#">Public</a></li>
                     <li id="ftLnk05" class="desktopMode"><a href="#">Promotion</a></li>
