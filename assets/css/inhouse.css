@@ -1,0 +1,66 @@
+/* inhouse & inhouse detail */
+.boxThinkingWrap01 { overflow: hidden;}
+.boxThinking01 { width: 100%;}
+    .boxThinking01 .flL { width: 70%;}
+    .boxThinking01 .flR { width: 30%; padding: 0 1.5%; box-sizing: border-box;}
+
+.boxDownload { position: relative; margin-bottom: 25px;}
+.btn_download_broc01 { padding: 5px 5px 0 5px; position: absolute; bottom: 0; font-weight: bold; text-decoration: underline;}
+.btn_download_broc01:hover { text-decoration: none;}
+
+.boxSocial01 { text-align: center; margin-bottom: 15px; overflow: hidden;}
+.boxSocial01 a { padding: 0 5px; display: inline-block;}
+
+.box-course-detail { padding-bottom: 40px;  border-bottom: 1px solid #F1EEED;}
+.box-course-detail.bdN { border-bottom:none; padding-bottom: 20px;}
+.box-txt-detail {}
+.box-content-slider { padding-bottom: 40px; margin-bottom: 40px;  border-bottom: 1px solid #F1EEED;}
+.txt_basic01 { margin-bottom: 5px;}
+
+.list-course-type { margin-bottom: 60px;}
+.list-course-type li {overflow: hidden; box-sizing: border-box; border-bottom: 1px solid #F1EEED; margin-bottom: 10px;}
+.list-course-type li img { float: left; width: 18%; margin-top: 5px;}
+.list-course-type li p { float: left; width: 64%; padding: 15px 4% 18px 4%;}
+.list-course-type span { display: block;}
+.list-course-type span.ttl-style03 { font-size: 16px; color: #b61d22;}
+.list-course-type .txt-style02 { font-size: 13px;}
+
+
+@media only screen and (max-width: 1200px) {
+    .btn_download_broc01 { font-size: 13px;}
+    .btn_more_info01 { font-size: 14px;}
+    .boxSocial01 a { width: 20%; float: left;}
+}
+
+/* ----------- iPad ----------- */
+@media only screen and (max-width: 1024px) {
+
+
+
+}
+
+@media only screen and (max-width: 992px) {
+.boxThinking01 .flL, .boxThinking01 .flR, .main-content-left01, .sub-content-right01 { width: 100%;}
+.boxThinking01 .flL { margin-bottom: 30px;}
+.btn_more_info01 { width: 30%;}    
+.boxSocial01 { margin: 10px 10%;}
+.boxSocial01 a { padding: 0; width: 25%;}
+
+
+}
+
+@media only screen and (max-width: 767px) {
+   
+}
+
+@media only screen and (max-width: 600px) {
+    
+}
+
+@media only screen and (max-width: 480px){
+    
+}
+
+@media only screen and (max-width: 370px){
+    
+}

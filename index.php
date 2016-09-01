@@ -8,18 +8,18 @@
 <title>DeOne</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link rel="stylesheet" type="text/css" href="assets/css/cmn_layout.css" media="all" />
-<link rel="stylesheet" type="text/css" href="assets/css/cmn_style.css" media="all" />
 <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" media="all" />
 <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css" media="all" />
 <link href="assets/css/slicknav.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="assets/css/cmn_style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="assets/css/cmn_layout.css" media="all" />
 
 <script type="text/javascript" src="assets/js/jquery.js"></script>
-<script type="text/javascript" src="assets/js/common.js"></script>
 <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
 <script src="assets/js/jquery.sticky-kit.min.js" type="text/javascript"></script>
 <script src="assets/js/jquery.slicknav.js" type="text/javascript"></script>
 <script src="../Seatech/assets/js/jquery.matchHeight.js" type="text/javascript"></script>
+<script type="text/javascript" src="assets/js/common.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         
