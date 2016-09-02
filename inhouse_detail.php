@@ -40,7 +40,7 @@
     });
 </script>
 </head>
-<body id="g01" class="lDef">
+<body id="g03" class="lDef">
 <div id="wrapper">
 <?php include('/inc/header.php'); ?>
 	<div id="containerWrap">
@@ -52,9 +52,9 @@
                                     <div class="boxLink01 clearfix">
                                         <div href="#" class="breadcrumb flL">
                                             <a href="index.php" class="home"><img src="assets/images/common/ico-home01.png" alt="Home" class="img-responsive"/> /</a>
-                                            <a href="inhouse.php" class="home">In House /</a>
-                                            <a href="#" class="home">Leadership Thinking /</a>
-                                            <a href="#" class="home">Analytics Thinking</a>
+                                            <a href="inhouse.php">In House /</a>
+                                            <a href="#">Leadership Thinking /</a>
+                                            <a href="#">Analytics Thinking</a>
                                         </div>
                                         <a href="#" class="flR">IN HOUSE TRAINING</a>
                                     </div>

@@ -25,6 +25,10 @@
 .list-course-type span.ttl-style03 { font-size: 16px; color: #b61d22;}
 .list-course-type .txt-style02 { font-size: 13px;}
 
+.sliderInhouse { width: 99%;}
+.listInhouse01 li { position: relative;}
+.owl-mod01.sliderInhouse .owl-controls { margin-top: 8px;}
+
 
 @media only screen and (max-width: 1200px) {
     .btn_download_broc01 { font-size: 13px;}
