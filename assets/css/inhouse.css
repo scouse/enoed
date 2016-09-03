@@ -19,7 +19,7 @@
 
 .list-course-type { margin-bottom: 60px;}
 .list-course-type li {overflow: hidden; box-sizing: border-box; border-bottom: 1px solid #F1EEED; margin-bottom: 10px;}
-.list-course-type li img { float: left; width: 18%; margin-top: 5px;}
+.list-course-type li img { float: left; width: 18%; margin-top: 5px; max-width: 82px;}
 .list-course-type li p { float: left; width: 64%; padding: 15px 4% 18px 4%;}
 .list-course-type span { display: block;}
 .list-course-type span.ttl-style03 { font-size: 16px; color: #b61d22;}
