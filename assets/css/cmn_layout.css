@@ -361,7 +361,7 @@ background: url(../images/common/ico-link01.png) right center no-repeat; padding
 .txtRed01 { color: #b61d22;}
 .linkLearnMore01 { font-size: 14px; font-weight: bold; color: #b61d22; text-decoration: none; background: url(../images/common/ico-link02.png) right center no-repeat; padding: 8px 27px 5px 0;}
 .btn_more_info01 { display: block; width: 80%; font-size: 16px; color: #fff; font-weight: bold; background: url(../images/common/bg-btn01.png) right center no-repeat;
-                  background-size: 100% auto; padding: 8px 15% 5px 5%; margin-bottom: 25px;}
+                  background-size: 100% auto; padding: 8px 15% 5px 5%; margin-bottom: 40px;}
 .btn-learMore01 { position: absolute; right: 10%; bottom: 0; display: block; font-size: 15px; color: #fff; font-weight: bold; background: url(../images/common/bg-btn01.png) right center no-repeat;
                   background-size: auto 100%; padding: 0; white-space: nowrap;}
 .btn-learMore01 span.txt { float: left; padding: 9px 15px 6px 15px;}

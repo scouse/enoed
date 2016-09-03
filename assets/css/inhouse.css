@@ -4,6 +4,13 @@
     .boxThinking01>.flL { width: 70%;}
     .boxThinking01>.flR { width: 30%; padding: 0 1.5%; box-sizing: border-box;}
 
+.boxSliderVideo01 {}
+.boxSliderVideo01 li { overflow: hidden;}
+.boxSliderVideo01 .item>.flL { width: 70%;}
+.boxSliderVideo01 .item>.flL>img { }
+.boxSliderVideo01 .item>.flR { width: 30%;}
+.boxSliderVideo01.owl-mod01 .owl-controls { width: 70%; margin-top: -120px;}
+
 .boxDownload { position: relative; margin-bottom: 25px; box-sizing: border-box; text-align: left;}
 .boxDownload>.flL { width: 18%;}
 .boxDownload>.flR { width: 82%;}

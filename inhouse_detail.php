@@ -62,56 +62,151 @@
                                         <div class="boxThinkingWrap01">
                                             <h2 class="h2_basic01">ANALYTICAL THINKING</h2>
                                             <div class="boxThinking01">
-                                                <div class="flL">
-                                                    <div class="boxSliderVideo01 owl-mod01">
-                                                        <div class="item">
-                                                            <video width="100%" height="auto" controls="true" >
+                                                <div class="clearfix">
+                                                    <ul class="boxSliderVideo01 owl-mod01">
+                                                        <li class="item">
+                                                            <div class="flL">
+                                                                <video width="100%" height="auto" controls="true" >
+                                                                    <source type="video/mp4" src="https://www.youtube.com/watch?v=cqNmVJk7Zyg" />
+                                                                </video>
+                                                            </div>
+                                                            <div class="flR boxContentIntro">
+                                                                <h3 class="h3_basic01">INTRODUCTION</h3>
+                                                                <p class="txt_detail01">
+                                                                    New country business Full detials & informatio business gravida velition sam the value gravida velition sam 
+                                                                    the value information.<br><br>
+
+                                                                    Country business Full detials & informatio businessman Full detials & informatio businessman country corporate 
+                                                                    Gravida velition sam the value gravida velition sample Full detials & informatio businessman country corporate
+                                                                    gravida velition sam the value gravida velition sam the value information
+                                                                </p>
+                                                                <div class="boxDownload clearfix">
+                                                                    <div class="flL">
+                                                                        <img src="assets/images/inhouse/img-broc01.png" class="img-responsive box-shadow-65" />
+                                                                    </div>
+                                                                    <div class="flR">
+                                                                        <a href="#" class="linkInfo01 flR"><spn>Need more information</spn></a>
+                                                                        <a href="#" class="btn_download_broc01"><spn>DOWNLOAD BROCHURE</spn> ></a>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="#" class="btn_more_info01">GET MORE INFORMATION</a>
+                                                                <div class="boxSocial01">
+                                                                    <a href="#"><img src="assets/images/common/ico-facebook02.png" alt="Facebook" class="img-responsive" /></a>
+                                                                    <a href="#"><img src="assets/images/common/ico-youtube01.png" alt="Youtube" class="img-responsive" /></a>
+                                                                    <a href="#"><img src="assets/images/common/ico-in01.png" alt="LinkedIn" class="img-responsive" /></a>
+                                                                    <a href="#"><img src="assets/images/common/ico-mail02.png" alt="Mail" class="img-responsive" /></a>
+                                                                </div>
+                                                                <div class="taC"><a href="#" class="txt_link01">Terms and conditions are apply ></a></div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="item">
+                                                            <div class="flL">
+                                                                <video width="100%" height="auto" controls="true" >
+                                                                    <source type="video/mp4" src="https://www.youtube.com/watch?v=cqNmVJk7Zyg" />
+                                                                </video>
+                                                            </div>
+                                                            <div class="flR boxContentIntro">
+                                                                <h3 class="h3_basic01">INTRODUCTION</h3>
+                                                                <p class="txt_detail01">
+                                                                    New country business Full detials & informatio business gravida velition sam the value gravida velition sam 
+                                                                    the value information.<br><br>
+
+                                                                    Country business Full detials & informatio businessman Full detials & informatio businessman country corporate 
+                                                                    Gravida velition sam the value gravida velition sample Full detials & informatio businessman country corporate
+                                                                    gravida velition sam the value gravida velition sam the value information
+                                                                </p>
+                                                                <div class="boxDownload clearfix">
+                                                                    <div class="flL">
+                                                                        <img src="assets/images/inhouse/img-broc01.png" class="img-responsive box-shadow-65" />
+                                                                    </div>
+                                                                    <div class="flR">
+                                                                        <a href="#" class="linkInfo01 flR"><spn>Need more information</spn></a>
+                                                                        <a href="#" class="btn_download_broc01"><spn>DOWNLOAD BROCHURE</spn> ></a>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="#" class="btn_more_info01">GET MORE INFORMATION</a>
+                                                                <div class="boxSocial01">
+                                                                    <a href="#"><img src="assets/images/common/ico-facebook02.png" alt="Facebook" class="img-responsive" /></a>
+                                                                    <a href="#"><img src="assets/images/common/ico-youtube01.png" alt="Youtube" class="img-responsive" /></a>
+                                                                    <a href="#"><img src="assets/images/common/ico-in01.png" alt="LinkedIn" class="img-responsive" /></a>
+                                                                    <a href="#"><img src="assets/images/common/ico-mail02.png" alt="Mail" class="img-responsive" /></a>
+                                                                </div>
+                                                                <div class="taC"><a href="#" class="txt_link01">Terms and conditions are apply ></a></div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="item">
+                                                            <div class="flL">
+                                                                <video width="100%" height="auto" controls="true" >
+                                                                    <source type="video/mp4" src="https://www.youtube.com/watch?v=cqNmVJk7Zyg" />
+                                                                </video>
+                                                            </div>
                                                                 <source type="video/mp4" src="https://www.youtube.com/watch?v=cqNmVJk7Zyg" />
                                                             </video>
-                                                        </div>
-                                                        <div class="item">
-                                                            <video width="100%" height="auto" controls="true" >
-                                                                <source type="video/mp4" src="https://www.youtube.com/watch?v=ecFTcAN2i4c" />
-                                                            </video>
-                                                        </div>
-                                                        <div class="item">
-                                                            <video width="100%" height="auto" controls="true" >
-                                                                <source type="video/mp4" src="https://www.youtube.com/watch?v=cqNmVJk7Zyg" />
-                                                            </video>
-                                                        </div>
-                                                        <div class="item">
-                                                            <video width="100%" height="auto" controls="true" >
-                                                                <source type="video/mp4" src="https://www.youtube.com/watch?v=ecFTcAN2i4c" />
-                                                            </video>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="flR boxContentIntro">
-                                                    <h3 class="h3_basic01">INTRODUCTION</h3>
-                                                    <p class="txt_detail01">
-                                                        New country business Full detials & informatio business gravida velition sam the value gravida velition sam 
-                                                        the value information.<br><br>
-                                                        
-                                                        Country business Full detials & informatio businessman Full detials & informatio businessman country corporate 
-                                                        Gravida velition sam the value gravida velition sample Full detials & informatio businessman country corporate
-                                                        gravida velition sam the value gravida velition sam the value information
-                                                    </p>
-                                                    <div class="boxDownload clearfix">
-                                                        <div class="flL">
-                                                            <img src="assets/images/inhouse/img-broc01.png" class="img-responsive box-shadow-65" />
-                                                        </div>
-                                                        <div class="flR">
-                                                            <a href="#" class="btn_download_broc01"><spn>DOWNLOAD BROCHURE</spn> ></a>
-                                                        </div>
-                                                    </div>
-                                                    <a href="#" class="btn_more_info01">GET MORE INFORMATION</a>
-                                                    <div class="boxSocial01">
-                                                        <a href="#"><img src="assets/images/common/ico-facebook02.png" alt="Facebook" class="img-responsive" /></a>
-                                                        <a href="#"><img src="assets/images/common/ico-youtube01.png" alt="Youtube" class="img-responsive" /></a>
-                                                        <a href="#"><img src="assets/images/common/ico-in01.png" alt="LinkedIn" class="img-responsive" /></a>
-                                                        <a href="#"><img src="assets/images/common/ico-mail02.png" alt="Mail" class="img-responsive" /></a>
-                                                    </div>
-                                                    <div class="taC"><a href="#" class="txt_link01">Terms and conditions are apply ></a></div>
+                                                            <div class="flR boxContentIntro">
+                                                                <h3 class="h3_basic01">INTRODUCTION</h3>
+                                                                <p class="txt_detail01">
+                                                                    New country business Full detials & informatio business gravida velition sam the value gravida velition sam 
+                                                                    the value information.<br><br>
+
+                                                                    Country business Full detials & informatio businessman Full detials & informatio businessman country corporate 
+                                                                    Gravida velition sam the value gravida velition sample Full detials & informatio businessman country corporate
+                                                                    gravida velition sam the value gravida velition sam the value information
+                                                                </p>
+                                                                <div class="boxDownload clearfix">
+                                                                    <div class="flL">
+                                                                        <img src="assets/images/inhouse/img-broc01.png" class="img-responsive box-shadow-65" />
+                                                                    </div>
+                                                                    <div class="flR">
+                                                                        <a href="#" class="linkInfo01 flR"><spn>Need more information</spn></a>
+                                                                        <a href="#" class="btn_download_broc01"><spn>DOWNLOAD BROCHURE</spn> ></a>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="#" class="btn_more_info01">GET MORE INFORMATION</a>
+                                                                <div class="boxSocial01">
+                                                                    <a href="#"><img src="assets/images/common/ico-facebook02.png" alt="Facebook" class="img-responsive" /></a>
+                                                                    <a href="#"><img src="assets/images/common/ico-youtube01.png" alt="Youtube" class="img-responsive" /></a>
+                                                                    <a href="#"><img src="assets/images/common/ico-in01.png" alt="LinkedIn" class="img-responsive" /></a>
+                                                                    <a href="#"><img src="assets/images/common/ico-mail02.png" alt="Mail" class="img-responsive" /></a>
+                                                                </div>
+                                                                <div class="taC"><a href="#" class="txt_link01">Terms and conditions are apply ></a></div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="item">
+                                                            <div class="flL">
+                                                                <video width="100%" height="auto" controls="true" >
+                                                                    <source type="video/mp4" src="https://www.youtube.com/watch?v=cqNmVJk7Zyg" />
+                                                                </video>
+                                                            </div>
+                                                            <div class="flR boxContentIntro">
+                                                                <h3 class="h3_basic01">INTRODUCTION</h3>
+                                                                <p class="txt_detail01">
+                                                                    New country business Full detials & informatio business gravida velition sam the value gravida velition sam 
+                                                                    the value information.<br><br>
+
+                                                                    Country business Full detials & informatio businessman Full detials & informatio businessman country corporate 
+                                                                    Gravida velition sam the value gravida velition sample Full detials & informatio businessman country corporate
+                                                                    gravida velition sam the value gravida velition sam the value information
+                                                                </p>
+                                                                <div class="boxDownload clearfix">
+                                                                    <div class="flL">
+                                                                        <img src="assets/images/inhouse/img-broc01.png" class="img-responsive box-shadow-65" />
+                                                                    </div>
+                                                                    <div class="flR">
+                                                                        <a href="#" class="linkInfo01 flR"><spn>Need more information</spn></a>
+                                                                        <a href="#" class="btn_download_broc01"><spn>DOWNLOAD BROCHURE</spn> ></a>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="#" class="btn_more_info01">GET MORE INFORMATION</a>
+                                                                <div class="boxSocial01">
+                                                                    <a href="#"><img src="assets/images/common/ico-facebook02.png" alt="Facebook" class="img-responsive" /></a>
+                                                                    <a href="#"><img src="assets/images/common/ico-youtube01.png" alt="Youtube" class="img-responsive" /></a>
+                                                                    <a href="#"><img src="assets/images/common/ico-in01.png" alt="LinkedIn" class="img-responsive" /></a>
+                                                                    <a href="#"><img src="assets/images/common/ico-mail02.png" alt="Mail" class="img-responsive" /></a>
+                                                                </div>
+                                                                <div class="taC"><a href="#" class="txt_link01">Terms and conditions are apply ></a></div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
