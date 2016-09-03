@@ -27,7 +27,13 @@
 
 .sliderInhouse { width: 99%;}
 .listInhouse01 li { position: relative;}
-.owl-mod01.sliderInhouse .owl-controls { margin-top: 8px;}
+.owl-mod01 #sliderTraining .owl-controls { margin-top: 8px;}
+.sliderInhouse .ttl_top { font-family: Montserrat; position: absolute; left: 0; top: 23px; padding: 10px 75px 10px 35px; font-size: 35px;
+ color: #fff; text-shadow: 1px 0px 10px rgba(100, 100, 100, 1); background: url(../images/common/bg-title01.png) right center no-repeat;}
+
+.btnShowallWrap { text-align: center;}
+a.btn-showall01 { display: inline-block; background: url(../images/common/bg-showall01.png) center center no-repeat; background-size: 100% auto; color: #fff; font-size: 15px;
+    padding: 6px 4% 4px 2%; margin-top: -20px;}
 
 
 @media only screen and (max-width: 1200px) {

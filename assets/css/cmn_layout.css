@@ -665,10 +665,11 @@ background: url(../images/common/ico-link01.png) right center no-repeat; padding
 .boxLink01 .breadcrumb a { padding: 10px 0px 5px 5px;}
 
 .owl-mod01 .owl-nav { display: none;}
-.owl-mod01 .owl-controls {position: absolute; width: 100%; margin-top: 0px;}
+.owl-mod01 .owl-controls {position: absolute; width: 100%; margin-top: -30px;}
 .owl-mod01 .owl-controls .owl-prev, .owl-mod01 .owl-controls .owl-next { display: none !important;}
 .owl-mod01 .owl-dot span { border-radius: 2px !important;}
 .owl-mod01  .owl-dots .owl-dot.active span, .owl-mod01  .owl-dots .owl-dot:hover span { background: #fff !important;}
+.bd-bottom01 { border-bottom: 2px solid #F1EEED;}
 
 /* !h(n)eading
 ---------------------------------------------------------- */

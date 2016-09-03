@@ -23,8 +23,6 @@
 <script type="text/javascript">
     $(document).ready(function(){
         
-        $('#menuMobileTemplate').slicknav();
-        $('#menuClose').slicknav('close');
         $("#boxSubMenu").stick_in_parent({offset_top: 20});
         
         $('.owl-carousel').owlCarousel({

@@ -36,7 +36,7 @@
             }
         });
         
-        $('#listInhouse02, #listInhouse03, #listInhouse04, #listInhouse05').matchHeight({byRow: true});
+        $('#listInhouse02 li, #listInhouse03 li, #listInhouse04 li, #listInhouse05 li').matchHeight({byRow: true});
         
     });
 </script>
@@ -53,7 +53,7 @@
                                     <div class="boxLink01 clearfix">
                                         <div href="#" class="breadcrumb flL">
                                             <a href="index.php" class="home"><img src="assets/images/common/ico-home01.png" alt="Home" class="img-responsive"/> /</a>
-                                            <a href="#">In House /</a>
+                                            <a href="#">In House</a>
                                         </div>
                                         <a href="#" class="flR">POPULAR COURSES</a>
                                     </div>
@@ -72,7 +72,7 @@
                                             <h2 class="h2_basic02">IN HOUSE TRAINING</h2>
                                         </div>
                                         <div class="boxInHouseSlider01 owl-mod01 sliderInhouse">
-                                            <ul class="listInhouse01 owl-carousel-inhouse01">
+                                            <ul id="sliderTraining" class="listInhouse01 owl-carousel-inhouse01">
                                                 <li>
                                                     <img src="assets/images/inhouse/img-slider01.jpg" alt="#" />
                                                     <a href="#" class="btn-learMore01">LEARN MORE</a>
@@ -97,12 +97,12 @@
                                     <div class="sectionTop02 pt25">
                                         <div class="clearfix">
                                             <h4 class="h4_basic01">FEATURED IN HOUSE TRAINING</h4>
-                                            <ul id="listInhouse02" class="list_basic02">
+                                            <ul id="listInhouse02" class="list_basic02 bd-bottom01">
                                                 <li>
                                                     <img src="assets/images/top/sig2.png" alt="#" />
                                                     <p class="sttl_basic01">Leadership Thinking</p>
                                                     <p class="txt_basic01">Full detials & information ; New country business gravid velition sam the value of favorite courses. 
-                                                        Full detials & information ; New country business gravid
+                                                        Full detials & information ; New country business gravid Full detials & information ; New country business gravid Full detials & information ; New country business gravid
                                                     </p>
                                                 </li>
                                                 <li>
@@ -127,7 +127,7 @@
                                                 <h4 class="h4_basic01 flL">LEAERSHIP THINKING</h4>
                                                 <div class="flR mt10"><a href="#" class="linkExplore01">Explore all <span class="txtRed01">25</span> In House Courses</a></div>
                                             </div>
-                                            <div class="boxInHouseSlider02 owl-mod01 sliderInhouse">
+                                            <div class="boxInHouseSlider02 owl-mod01 sliderInhouse mb10">
                                                 <ul class="listInhouse01 owl-carousel-inhouse01">
                                                     <li>
                                                         <img src="assets/images/inhouse/img-leader1.jpg" alt="#" />
@@ -143,7 +143,7 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <ul id="listInhouse03" class="list_basic01">
+                                            <ul id="listInhouse03" class="list_basic01 bd-bottom01 pb30">
                                                 <li>
                                                     <img src="assets/images/top/DeOne-Web-UI-01-Home-V4_19.png" alt="#" />
                                                     <p class="sttl_basic01 grey">Analytical Thinking</p>
@@ -181,7 +181,7 @@
                                                 <h4 class="h4_basic01 flL">LEAERSHIP SKILL</h4>
                                                 <div class="flR mt10"><a href="#" class="linkExplore01">Explore all <span class="txtRed01">25</span> In House Courses</a></div>
                                             </div>
-                                            <div class="boxInHouseSlider03 owl-mod01 sliderInhouse">
+                                            <div class="boxInHouseSlider03 owl-mod01 sliderInhouse mb10">
                                                 <ul class="listInhouse01 owl-carousel-inhouse01">
                                                     <li>
                                                         <img src="assets/images/inhouse/DeOne-Web-UI-03-InHouse-V4_12.jpg" alt="#" />
@@ -197,7 +197,7 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <ul id="listInhouse04" class="list_basic01">
+                                            <ul id="listInhouse04" class="list_basic01 bd-bottom01 pb30">
                                                 <li>
                                                     <img src="assets/images/top/DeOne-Web-UI-01-Home-V4_19.png" alt="#" />
                                                     <p class="sttl_basic01 grey">Analytical Thinking</p>
@@ -235,7 +235,7 @@
                                                 <h4 class="h4_basic01 flL">LEAERSHIP MODULE</h4>
                                                 <div class="flR mt10"><a href="#" class="linkExplore01">Explore all <span class="txtRed01">25</span> In House Courses</a></div>
                                             </div>
-                                            <div class="boxInHouseSlider04 owl-mod01 sliderInhouse">
+                                            <div class="boxInHouseSlider04 owl-mod01 sliderInhouse mb10">
                                                 <ul class="listInhouse01 owl-carousel-inhouse01">
                                                     <li>
                                                         <img src="assets/images/inhouse/DeOne-Web-UI-03-InHouse-V4_12.jpg" alt="#" />
@@ -251,7 +251,7 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <ul id="listInhouse05" class="list_basic01">
+                                            <ul id="listInhouse05" class="list_basic01 bd-bottom01 pb30">
                                                 <li>
                                                     <img src="assets/images/top/DeOne-Web-UI-01-Home-V4_19.png" alt="#" />
                                                     <p class="sttl_basic01 grey">Analytical Thinking</p>
