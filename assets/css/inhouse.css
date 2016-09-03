@@ -42,6 +42,72 @@
 .sliderInhouse .ttl_top { font-family: Montserrat; position: absolute; left: 0; top: 23px; padding: 10px 75px 10px 35px; font-size: 35px;
  color: #fff; text-shadow: 1px 0px 10px rgba(100, 100, 100, 1); background: url(../images/common/bg-title01.png) right center no-repeat;}
 
+#g04 .boxLink01 a { color: #fff;}
+#g04 .linkExplore02 { color: #fff;}
+#g04 .linkExploreWrap { width: 88%;  margin: 0 6% 15px 6%;}
+#g04 .h2_basic01 {color: #fff; border-bottom: 2px solid #FFF; }
+
+#listPublicTrain01 .owl-controls .owl-prev { width: 60px; height: 110px; background: url(../images/common/btn-slider-prev02.png) center center no-repeat; text-indent: -1000%;
+position: absolute; left: -45px; top: 160px;}
+#listPublicTrain01 .owl-controls .owl-next { width: 60px; height: 110px; background: url(../images/common/btn-slider-next02.png) center center no-repeat; text-indent: -1000%;
+position: absolute; right: -45px; top: 160px;}
+#listPublicTrain01 .owl-controls .owl-dots { display: none !important;}
+#listPublicTrain01 li { -webkit-box-shadow: 0px 0px 20px 1px rgba(138,138,138,0.35);-moz-box-shadow: 0px 0px 20px 1px rgba(138,138,138,0.35);box-shadow: 0px 0px 20px 1px rgba(138,138,138,0.35);}
+#listPublicTrain01 li .sttl_basic01 { padding: 15px 20px 0px 20px;}
+#listPublicTrain01 li .txt_basic01 { padding: 10px 20px;}
+#listPublicTrain01 li .txt_Instruc01 { padding: 10px 25px;}
+#listPublicTrain01 li .txt_Instruc01 span {}
+
+.box-switch-view { line-height: 1.95; font-weight: bold;}
+.box-switch-view .switcher { padding: 0px 10px 6px 10px;}
+
+#listCourse01.grid { }
+#listCourse01.grid li { overflow: hidden; margin-bottom: 50px; box-sizing: border-box;}
+#listCourse01.grid li .boxImgWrap { position: relative; float: left; width: 46%;}
+#listCourse01.grid li .boxImgWrap img { }
+#listCourse01.grid li .boxImgWrap .txtCourseDate01 { font-family: Montserrat; position: absolute; top: 0; right: 0; padding: 3px 10px 7px 10px;
+                                                     background: #b61d22; text-align: center; color: #fff; line-height: 1.1; }
+#listCourse01.grid li .boxImgWrap .txtCourseDate01 .date { font-size: 34px;}
+#listCourse01.grid li .boxImgWrap .txtCourseDate01 .month { font-size: 16px;}
+#listCourse01.grid li .boxImgWrap .txtCourseDate01 .year {  font-size: 15px;}
+#listCourse01.grid li .boxImgWrap .txtCourseDate01 span { display: block; text-shadow: 1px 0px 10px rgba(100, 100, 100, 1); font-weight: bold;}
+#listCourse01.grid li .boxDetail { float: left; width: 52%; padding: 0 0 0 2%;}
+#listCourse01.grid li .boxDetail .ttl { }
+#listCourse01.grid li .boxDetail .txt_basic01 { }
+#listCourse01.grid li .boxDetail .txt-instructor { }
+#listCourse01.grid li .boxDetail .txt-instructor p { }
+#listCourse01.grid li .boxDetail .txt-instructor span { }
+#listCourse01.grid li .boxDetail .txt-instructor span.stl { }
+#listCourse01.grid li .boxDetail .txt-instructor span.semicol { }
+#listCourse01.grid li .boxDetail .txt-fee { }
+#listCourse01.grid li .boxDetail .txt-fee span.stl { }
+#listCourse01.grid li .boxDetail .txt-fee span.semicol { }
+#listCourse01.grid li .boxDetail .txt-fee span.txt-price { }
+
+#listCourse01.list { }
+#listCourse01.list li { }
+#listCourse01.list li .boxImgWrap { }
+#listCourse01.list li .boxImgWrap img { display: none;}
+#listCourse01.list li .boxImgWrap .txtCourseDate01 { }
+#listCourse01.list li .boxImgWrap .txtCourseDate01 .date { }
+#listCourse01.list li .boxImgWrap .txtCourseDate01 .month { }
+#listCourse01.list li .boxImgWrap .txtCourseDate01 .year {  }
+#listCourse01.list li .boxImgWrap .txtCourseDate01 span { }
+#listCourse01.list li .boxDetail { float: left; overflow: hidden;}
+#listCourse01.list li .boxDetail .ttl { float: left; }
+#listCourse01.list li .boxDetail .txt_basic01 { display: none;}
+#listCourse01.list li .boxDetail .txt-instructor { float: left;}
+#listCourse01.list li .boxDetail .txt-instructor p { }
+#listCourse01.list li .boxDetail .txt-instructor p.txt-date { display: none;}
+#listCourse01.list li .boxDetail .txt-instructor span { display: none;}
+#listCourse01.list li .boxDetail .txt-instructor span.stl { }
+#listCourse01.list li .boxDetail .txt-instructor span.semicol { }
+#listCourse01.list li .boxDetail .txt-fee { float: left;}
+#listCourse01.list li .boxDetail .txt-fee .flL p span { display: none;}
+#listCourse01.list li .boxDetail .txt-fee span.stl { }
+#listCourse01.list li .boxDetail .txt-fee span.semicol { }
+#listCourse01.list li .boxDetail .txt-fee span.txt-price { }
+
 
 @media only screen and (max-width: 1200px) {
     .btn_download_broc01 { font-size: 13px;}

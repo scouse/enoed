@@ -530,7 +530,7 @@ a.btn-back01 { overflow: hidden; display: inline-block; background: #fff; color:
 /* owl carousel owl-controls */
 .boxPopular01 .owl-controls { position: absolute; right: 0; top: -64px; overflow: hidden;}
 .boxPopular01 .owl-nav {}
-.boxPopular01 .owl-prev { float: left; padding: 5px; background: url(../images/common/btn-slider-prev01.png) center center no-repeat; text-indent: -100%;}
+.boxPopular01 .owl-prev { float: left; padding: 5px; background: url(../images/common/btn-slider-prev01.png) center center no-repeat; text-indent: 100%;}
 .boxPopular01 .owl-next { float: left; padding: 5px;  background: url(../images/common/btn-slider-next01.png) center center no-repeat; text-indent: 100%;}
 .boxPopular01 .owl-dots { float: left; margin-top: 8px;}
 .boxPopular01 .owl-dots .owl-dot {}
@@ -686,6 +686,7 @@ a.btn-back01 { overflow: hidden; display: inline-block; background: #fff; color:
 .owl-mod01  .owl-dots .owl-dot.active span, .owl-mod01  .owl-dots .owl-dot:hover span { background: #f1eeed !important;}
 .bd-bottom01 { border-bottom: 2px solid #F1EEED;}
 .bd-bottom02 { border-bottom: 2px solid #C61923;}
+.bd-bottom03 { border-bottom: 1px solid #F1EEED;}
 
 /* !h(n)eading
 ---------------------------------------------------------- */
@@ -721,13 +722,19 @@ a.btn-back01 { overflow: hidden; display: inline-block; background: #fff; color:
 .list_basic04 li .ttl { font-size: 24px; color: #C61923; text-transform: uppercase; border-bottom: 2px solid #F1EEED; padding: 0 25px;}
 .list_basic04 li .txt { padding: 20px 25px;}
 
+.list_basic05 { width: 90%; margin: 0 auto;}
+.list_basic05 li { width:82%; position: relative; margin: 0 9% 25px 9%; background: #fff;}
+.list_basic05 li img { width: 100%;}
+
 /* !Section
 ---------------------------------------------------------- */
 .section_basic01 { width: 88%; margin: 0 6%;  box-sizing: border-box;}
 .sectionIn01 { width: 88%; margin: 0 6%;}
+.sectionIn02 { width: 100%; margin: 0;}
 .main-content-left01 { float: left; width: 73%;}
 .sub-content-right01 { float: right; width: 25%; margin-left: 2%;}
 .bg-style01 { background: url(../images/common/bg_style01.png) left top repeat-x;}
+.bg-style02 { background: url(../images/common/bg_style02.jpg) left top repeat-x; background-size: 100% auto;}
 
 
 .box-shadow-65 { -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.65);-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.65);box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.65);}
