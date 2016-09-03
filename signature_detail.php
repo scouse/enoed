@@ -40,7 +40,7 @@
     });
 </script>
 </head>
-<body id="g03" class="lDef">
+<body id="g02" class="lDef">
 <div id="wrapper">
 <?php include('/inc/header.php'); ?>
 	<div id="containerWrap">
@@ -52,15 +52,14 @@
                                     <div class="boxLink01 clearfix">
                                         <div href="#" class="breadcrumb flL">
                                             <a href="index.php" class="home"><img src="assets/images/common/ico-home01.png" alt="Home" class="img-responsive"/> /</a>
-                                            <a href="inhouse.php">In House /</a>
-                                            <a href="#">Leadership Thinking /</a>
-                                            <a href="#">Analytics Thinking</a>
+                                            <a href="signature.php">Signature > </a>
+                                            <a href="#">Da Vinci Code</a>
                                         </div>
-                                        <a href="#" class="flR">IN HOUSE TRAINING</a>
+                                        <a href="#" class="flR">SIGNATURE COURSE</a>
                                     </div>
                                     <div class="sectionIn01">
                                         <div class="boxThinkingWrap01">
-                                            <h2 class="h2_basic01">ANALYTICAL THINKING</h2>
+                                            <h2 class="h2_basic01">Da Vinci Code</h2>
                                             <div class="boxThinking01">
                                                 <div class="flL">
                                                     <div class="boxSliderVideo01 owl-mod01">
@@ -101,6 +100,7 @@
                                                             <img src="assets/images/inhouse/img-broc01.png" class="img-responsive box-shadow-65" />
                                                         </div>
                                                         <div class="flR">
+                                                            <a href="#" class="linkInfo01 flR"><spn>Need more information</spn></a>
                                                             <a href="#" class="btn_download_broc01"><spn>DOWNLOAD BROCHURE</spn> ></a>
                                                         </div>
                                                     </div>
@@ -172,7 +172,7 @@ gravida velition sam the value Full detials & information ;New country business 
                                                     gravida velition sam the value Full detials & information ;New country business Full detials & information ;New counFull detials & information
                                                 </div>
                                             </div>
-                                            <div class="box-content-slider clearfix">
+                                            <div class="box-content-slider clearfix pb10">
                                                 <div class="content-slider owl-mod01">
                                                     <div class="item">
                                                         <h4 class="h4_basic01">CUSTOMER TESTIMONIAL</h4>

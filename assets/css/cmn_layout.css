@@ -359,10 +359,10 @@ background: url(../images/common/ico-link01.png) right center no-repeat; padding
 .linkExplore01 { font-family: Arcon-Rounded-Regular; font-size: 15px; color: #6d6e71; text-decoration: none; background: url(../images/common/ico-link02.png) right center no-repeat; padding: 10px 27px 5px 0; }
 .linkExplore02 { font-family: Arcon-Rounded-Regular; font-size: 18px; font-weight: bold; margin-top: 20px; color: #6d6e71; text-decoration: none; padding: 10px 27px 5px 0;  text-transform: uppercase;}
 .txtRed01 { color: #b61d22;}
-.linkLearnMore01 { font-size: 14px; color: #b61d22; text-decoration: none; background: url(../images/common/ico-link02.png) right center no-repeat; padding: 8px 27px 5px 0;}
+.linkLearnMore01 { font-size: 14px; font-weight: bold; color: #b61d22; text-decoration: none; background: url(../images/common/ico-link02.png) right center no-repeat; padding: 8px 27px 5px 0;}
 .btn_more_info01 { display: block; width: 80%; font-size: 16px; color: #fff; font-weight: bold; background: url(../images/common/bg-btn01.png) right center no-repeat;
-                  background-size: 100% auto; padding: 8px 15% 5px 5%; margin-bottom: 40px;}
-.btn-learMore01 { position: absolute; right: 8%; bottom: 0; display: block; font-size: 15px; color: #fff; font-weight: bold; background: url(../images/common/bg-btn01.png) right center no-repeat;
+                  background-size: 100% auto; padding: 8px 15% 5px 5%; margin-bottom: 25px;}
+.btn-learMore01 { position: absolute; right: 10%; bottom: 0; display: block; font-size: 15px; color: #fff; font-weight: bold; background: url(../images/common/bg-btn01.png) right center no-repeat;
                   background-size: auto 100%; padding: 0; white-space: nowrap;}
 .btn-learMore01 span.txt { float: left; padding: 9px 15px 6px 15px;}
 .btn-learMore01 span.ico { float: left; padding: 2px 12px 3px 15px; background: #000; overflow: hidden; position: relative; top: 1px;background: rgb(182,29,34);
@@ -381,7 +381,7 @@ a.btn-back01 { overflow: hidden; display: inline-block; background: #fff; color:
 
 /* ttl_basic stl_basic */
 .boxTtlBasic01 { padding: 30px 1% 10px 0;}
-.ttl_basic01 { font-family: Arcon-Rounded-Regular; font-size: 24px; color: #b61d22;}
+.ttl_basic01 { font-family: Arcon-Rounded-Regular; font-size: 24px; font-weight: bold; color: #b61d22;}
 .sttl_basic01 { font-family: Montserrat; font-size: 20px; font-weight: bold; padding: 10px 0 5px 0; color: #b61d22;}
 .sttl_basic01.grey { color: #424143;}
 .sttl_basic02 { font-family: Montserrat; font-size: 20px; font-weight: bold; margin-bottom: 10px; padding: 0 0 10px 0; color: #424143; border-bottom: 2px solid #F1EEED;}
@@ -683,15 +683,16 @@ a.btn-back01 { overflow: hidden; display: inline-block; background: #fff; color:
 .owl-mod01 .owl-controls {position: absolute; width: 100%; margin-top: -30px;}
 .owl-mod01 .owl-controls .owl-prev, .owl-mod01 .owl-controls .owl-next { display: none !important;}
 .owl-mod01 .owl-dot span { border-radius: 2px !important;}
-.owl-mod01  .owl-dots .owl-dot.active span, .owl-mod01  .owl-dots .owl-dot:hover span { background: #fff !important;}
+.owl-mod01  .owl-dots .owl-dot.active span, .owl-mod01  .owl-dots .owl-dot:hover span { background: #f1eeed !important;}
 .bd-bottom01 { border-bottom: 2px solid #F1EEED;}
+.bd-bottom02 { border-bottom: 2px solid #C61923;}
 
 /* !h(n)eading
 ---------------------------------------------------------- */
-.h2_basic01 { font-family: Montserrat; font-size: 34px; color: #C61923; padding: 10px 0 0 0; border-bottom: 2px solid #c61923; margin-bottom: 15px; text-transform: uppercase;}
-.h2_basic02 { font-family: Montserrat; font-size: 28px; color: #C61923; text-transform: uppercase; }
-.h3_basic01 { margin-bottom: 5px; font-size: 28px; color: #C61923; text-transform: uppercase;}
-.h4_basic01 { font-size: 24px; color: #C61923; padding-bottom: 15px; text-transform: uppercase;}
+.h2_basic01 { font-family: Montserrat; font-size: 34px; font-weight: bold; color: #C61923; padding: 10px 0 0 0; border-bottom: 2px solid #c61923; margin-bottom: 15px; text-transform: uppercase;}
+.h2_basic02 { font-family: Montserrat; font-size: 28px; font-weight: bold; color: #C61923; text-transform: uppercase; }
+.h3_basic01 { margin-bottom: 5px; font-size: 28px; font-weight: bold; color: #C61923; text-transform: uppercase;}
+.h4_basic01 { font-size: 24px; font-weight: bold; color: #C61923; padding-bottom: 15px; text-transform: uppercase;}
 
 .txt_link01 { font-size: 12px; color: #4D4848; text-decoration: underline;}
 .txt_detail01 { margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #869791;}
