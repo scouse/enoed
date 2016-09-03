@@ -8,6 +8,7 @@
 <title>DeOne</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" media="all" />
 <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css" media="all" />
 <link href="assets/css/slicknav.css" rel="stylesheet" type="text/css"/>
@@ -75,19 +76,19 @@
                                             <ul id="sliderTraining" class="listInhouse01 owl-carousel-inhouse01">
                                                 <li>
                                                     <img src="assets/images/inhouse/img-slider01.jpg" alt="#" />
-                                                    <a href="#" class="btn-learMore01">LEARN MORE</a>
+                                                    <a href="#" class="btn-learMore01 box-shadow-35"><span class="txt">LEARN MORE</span> <span class="ico"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span></a>
                                                 </li>
                                                 <li>
                                                     <img src="assets/images/inhouse/img-slider01.jpg" alt="#" />
-                                                    <a href="#" class="btn-learMore01">LEARN MORE</a>
+                                                    <a href="#" class="btn-learMore01 box-shadow-35"><span class="txt">LEARN MORE</span> <span class="ico"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span></a>
                                                 </li>
                                                 <li>
                                                     <img src="assets/images/inhouse/img-slider01.jpg" alt="#" />
-                                                    <a href="#" class="btn-learMore01">LEARN MORE</a>
+                                                    <a href="#" class="btn-learMore01 box-shadow-35"><span class="txt">LEARN MORE</span> <span class="ico"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span></a>
                                                 </li>
                                                 <li>
                                                     <img src="assets/images/inhouse/img-slider01.jpg" alt="#" />
-                                                    <a href="#" class="btn-learMore01">LEARN MORE</a>
+                                                    <a href="#" class="btn-learMore01 box-shadow-35"><span class="txt">LEARN MORE</span> <span class="ico"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -173,7 +174,7 @@
                                                     </p>
                                                 </li>
                                             </ul>
-                                            <div class="btnShowallWrap"><a href="#" class="btn-showall01">Show All</a></div>
+                                            <div class="btnShowallWrap"><a href="#" class="btn-showall01 box-shadow-35"><span class="txt">Show All</span> <span class="ico"><i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span></a></div>
                                         </div>
                                         
                                         <div id="leadershipSkill" class="boxInhouseThinking">
@@ -227,7 +228,7 @@
                                                     </p>
                                                 </li>
                                             </ul>
-                                            <div class="btnShowallWrap"><a href="#" class="btn-showall01">Show All</a></div>
+                                            <div class="btnShowallWrap"><a href="#" class="btn-showall01 box-shadow-35"><span class="txt">Show All</span> <span class="ico"><i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span></a></div>
                                         </div>
                                         
                                         <div id="leadershipModule" class="boxInhouseThinking">
@@ -281,7 +282,7 @@
                                                     </p>
                                                 </li>
                                             </ul>
-                                            <div class="btnShowallWrap"><a href="#" class="btn-showall01">Show All</a></div>
+                                            <div class="btnShowallWrap"><a href="#" class="btn-showall01 box-shadow-35"><span class="txt">Show All</span> <span class="ico"><i class="fa fa-angle-down fa-lg" aria-hidden="true"></i></span></a></div>
                                         </div>
                                     <!--sectionTop02--></div>
                                     
