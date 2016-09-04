@@ -22,6 +22,7 @@
 <script src="assets/js/jquery.slicknav.js" type="text/javascript"></script>
 <script src="../Seatech/assets/js/jquery.matchHeight.js" type="text/javascript"></script>
 <script type="text/javascript" src="assets/js/common.js"></script>
+<script src="assets/js/viewSwitcher.js" type="text/javascript"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         
@@ -31,6 +32,15 @@
             nav:true,
             responsive:{
                 0:{
+                    items:1
+                },
+                800:{
+                    items:2
+                },
+                1024:{
+                    items:2
+                },
+                1025:{
                     items:3
                 }
             }
@@ -84,7 +94,10 @@
                                                         <span class="month">DEC</span>
                                                         <span class="year">2016</span>
                                                     </p>
-                                                    <p class="sttl_basic01">Public Course Edu #1</p>
+                                                    <p class="sttl_basic01">EXPERIENTIAL MARKETING<br>
+                                                            AND STRATEGIC <br>
+                                                            BRAND MANAGEMENT
+                                                    </p>
                                                     <p class="txt_basic01 bd-bottom03">Full detials & information ; New country business gravid velition sam the value of favorite courses. 
                                                         Full detials & information ; New country business gravid
                                                     </p>
@@ -100,7 +113,10 @@
                                                         <span class="month">DEC</span>
                                                         <span class="year">2016</span>
                                                     </p>
-                                                    <p class="sttl_basic01">Public Course Edu #2</p>
+                                                    <p class="sttl_basic01">PSYCHOLOGY FOR <br>
+                                                            MANAGEMENT & MOTIVATING<br>
+                                                            TECHNIQUES
+                                                    </p>
                                                     <p class="txt_basic01 bd-bottom03">Full detials & information ; New country business gravid velition sam the value of favorite courses. 
                                                         Full detials & information ; New country business gravid Full detials & information ; New country business gravid
                                                     </p>
@@ -116,7 +132,7 @@
                                                         <span class="month">DEC</span>
                                                         <span class="year">2016</span>
                                                     </p>
-                                                    <p class="sttl_basic01">Public Course Edu #3</p>
+                                                    <p class="sttl_basic01">New Era of Sales<br>planning</p>
                                                     <p class="txt_basic01 bd-bottom03">Full detials & information ; New country business gravid velition sam the value of favorite courses. 
                                                         Full detials & information ; New country business gravid
                                                     </p>
@@ -185,8 +201,8 @@
                                                 <div class="flR mt10 box-switch-view">
                                                     Select view type 
                                                     <span class="list-style-buttons">
-                                                        <a href="#" id="gridview" class="switcher"><img src="assets/images/common/ico-grid-view-active.png" alt="Grid"></a>
-                                                        <a href="#" id="listview" class="switcher active"><img src="assets/images/common/ico-list-view.png" alt="List"></a>
+                                                        <a href="#" id="gridview" class="switcher active"><img src="assets/images/common/ico-grid-view-active.png" alt="Grid"></a>
+                                                        <a href="#" id="listview" class="switcher"><img src="assets/images/common/ico-list-view.png" alt="List"></a>
                                                     </span>
                                                 </div>
                                             </div>
@@ -195,6 +211,14 @@
                                                     <li>
                                                         <p class="ttl_month">September  2016</p>
                                                         <ul id="listCourse01" class="grid">
+                                                            <li class="bar">
+                                                                <div class="bar-course01">
+                                                                    <span class="date">DATE</span>
+                                                                    <span class="course">COURSE</span>
+                                                                    <span class="ins">INSTRUCTOR</span>
+                                                                    <span class="fee">FEE</span>
+                                                                </div>
+                                                            </li>
                                                             <li class="item">
                                                                 <div class="boxImgWrap">
                                                                     <img src="assets/images/public/DeOne-Web-UI-04-Public-V4-List_06.jpg" alt="#" />
@@ -221,15 +245,15 @@
                                                                     </p>
                                                                     <div class="txt-instructor">
                                                                         <p class="txt-date"><span class="stl txtRed01">Date</span><span class="semicol txtRed01">:</span> 28 September 2016</p>
-                                                                        <p><span class="stl txtRed01">Instructor</span><span class="semicol txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
-                                                                        <p><span class="stl txtRed01">Location</span><span class="semicol txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
+                                                                        <p class="txt-ins"><span class="stl txtRed01">Instructor</span><span class="semicol txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
+                                                                        <p class="txt-location"><span class="stl txtRed01">Location</span><span class="semicol txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
                                                                     </div>
-                                                                    <p class="txt-fee">
+                                                                    <div class="txt-fee">
                                                                         <div class="flL">
-                                                                            <p><span class="txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700 THB</span></p>
+                                                                            <p><span class="stl txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700</span><span class="txt-thb"> THB</span></p>
                                                                         </div>
-                                                                        <a href="#" class="linkView01">View Details</a>
-                                                                    </p>
+                                                                        <a href="#" class="linkView01">View Details <span class="icoLinkR"><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i></span></a>
+                                                                    </div>
                                                                 </div>
                                                             </li>
                                                             <li class="item">
@@ -258,15 +282,15 @@
                                                                     </p>
                                                                     <div class="txt-instructor">
                                                                         <p class="txt-date"><span class="stl txtRed01">Date</span><span class="semicol txtRed01">:</span> 28 September 2016</p>
-                                                                        <p><span class="stl txtRed01">Instructor</span><span class="semicol txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
-                                                                        <p><span class="stl txtRed01">Location</span><span class="semicol txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
+                                                                        <p class="txt-ins"><span class="stl txtRed01">Instructor</span><span class="semicol txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
+                                                                        <p class="txt-location"><span class="stl txtRed01">Location</span><span class="semicol txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
                                                                     </div>
-                                                                    <p class="txt-fee">
+                                                                    <div class="txt-fee">
                                                                         <div class="flL">
-                                                                            <p><span class="stl txtRed01">FEE</span><span class="semicol txtRed01">:</span> <span class="txt-price">5,700 THB</span></p>
+                                                                            <p><span class="stl txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700</span><span class="txt-thb"> THB</span></p>
                                                                         </div>
-                                                                        <a href="#" class="linkView01">View Details</a>
-                                                                    </p>
+                                                                        <a href="#" class="linkView01">View Details <span class="icoLinkR"><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i></span></a>
+                                                                    </div>
                                                                 </div>
                                                             </li>
                                                             <li class="item">
@@ -295,15 +319,15 @@
                                                                     </p>
                                                                     <div class="txt-instructor">
                                                                         <p class="txt-date"><span class="stl txtRed01">Date</span><span class="semicol txtRed01">:</span> 28 September 2016</p>
-                                                                        <p><span class="stl txtRed01">Instructor</span><span class="semicol txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
-                                                                        <p><span class="stl txtRed01">Location</span><span class="semicol txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
+                                                                        <p class="txt-ins"><span class="stl txtRed01">Instructor</span><span class="semicol txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
+                                                                        <p class="txt-location"><span class="stl txtRed01">Location</span><span class="semicol txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
                                                                     </div>
-                                                                    <p class="txt-fee">
+                                                                    <div class="txt-fee">
                                                                         <div class="flL">
-                                                                            <p><span class="txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700 THB</span></p>
+                                                                            <p><span class="stl txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700</span><span class="txt-thb"> THB</span></p>
                                                                         </div>
-                                                                        <a href="#" class="linkView01">View Details</a>
-                                                                    </p>
+                                                                        <a href="#" class="linkView01">View Details <span class="icoLinkR"><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i></span></a>
+                                                                    </div>
                                                                 </div>
                                                             </li>
                                                             <li class="item">
@@ -331,16 +355,16 @@
                                                                         ameturna professional.
                                                                     </p>
                                                                     <div class="txt-instructor">
-                                                                        <p> class="txt-date"<span class="stl txtRed01">Date</span><span class="semicol txtRed01">:</span> 28 September 2016</p>
-                                                                        <p><span class="stl txtRed01">Instructor</span><span class="semicol txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
-                                                                        <p><span class="stl txtRed01">Location</span><span class="semicol txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
+                                                                        <p class="txt-date"><span class="stl txtRed01">Date</span><span class="semicol txtRed01">:</span> 28 September 2016</p>
+                                                                        <p class="txt-ins"><span class="stl txtRed01">Instructor</span><span class="semicol txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
+                                                                        <p class="txt-location"><span class="stl txtRed01">Location</span><span class="semicol txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
                                                                     </div>
-                                                                    <p class="txt-fee">
+                                                                    <div class="txt-fee">
                                                                         <div class="flL">
-                                                                            <p><span class="txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700 THB</span></p>
+                                                                            <p><span class="stl txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700</span><span class="txt-thb"> THB</span></p>
                                                                         </div>
-                                                                        <a href="#" class="linkView01">View Details</a>
-                                                                    </p>
+                                                                        <a href="#" class="linkView01">View Details <span class="icoLinkR"><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i></span></a>
+                                                                    </div>
                                                                 </div>
                                                             </li>
                                                             <li class="item">
@@ -369,15 +393,15 @@
                                                                     </p>
                                                                     <div class="txt-instructor">
                                                                         <p class="txt-date"><span class="stl txtRed01">Date</span><span class="semicol txtRed01">:</span> 28 September 2016</p>
-                                                                        <p><span class="stl txtRed01">Instructor</span><span class="semicol txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
-                                                                        <p><span class="stl txtRed01">Location</span><span class="semicol txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
+                                                                        <p class="txt-ins"><span class="stl txtRed01">Instructor</span><span class="semicol txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
+                                                                        <p class="txt-location"><span class="stl txtRed01">Location</span><span class="semicol txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
                                                                     </div>
-                                                                    <p class="txt-fee">
+                                                                    <div class="txt-fee">
                                                                         <div class="flL">
-                                                                            <p><span class="txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700 THB</span></p>
+                                                                            <p><span class="stl txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700</span><span class="txt-thb"> THB</span></p>
                                                                         </div>
-                                                                        <a href="#" class="linkView01">View Details</a>
-                                                                    </p>
+                                                                        <a href="#" class="linkView01">View Details <span class="icoLinkR"><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i></span></a>
+                                                                    </div>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -410,16 +434,16 @@
                                                                         ameturna professional.
                                                                     </p>
                                                                     <div class="txt-instructor">
-                                                                        <p class="txt-date"><span class="txtRed01">Date</span><span class="txtRed01">:</span> 28 September 2016</p>
-                                                                        <p><span class="txtRed01">Instructor</span><span class="txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
-                                                                        <p><span class="txtRed01">Location</span><span class="txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
+                                                                        <p class="txt-date"><span class="stl txtRed01">Date</span><span class="semicol txtRed01">:</span> 28 September 2016</p>
+                                                                        <p class="txt-ins"><span class="stl txtRed01">Instructor</span><span class="semicol txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
+                                                                        <p class="txt-location"><span class="stl txtRed01">Location</span><span class="semicol txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
                                                                     </div>
-                                                                    <p class="txt-fee">
+                                                                    <div class="txt-fee">
                                                                         <div class="flL">
-                                                                            <p><span class="txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700 THB</span></p>
+                                                                            <p><span class="stl txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700</span><span class="txt-thb"> THB</span></p>
                                                                         </div>
-                                                                        <a href="#" class="linkView01">View Details</a>
-                                                                    </p>
+                                                                        <a href="#" class="linkView01">View Details <span class="icoLinkR"><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i></span></a>
+                                                                    </div>
                                                                 </div>
                                                             </li>
                                                             <li class="item">
@@ -447,16 +471,16 @@
                                                                         ameturna professional.
                                                                     </p>
                                                                     <div class="txt-instructor">
-                                                                        <p class="txt-date"><span class="txtRed01">Date</span><span class="txtRed01">:</span> 28 September 2016</p>
-                                                                        <p><span class="txtRed01">Instructor</span><span class="txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
-                                                                        <p><span class="txtRed01">Location</span><span class="txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
+                                                                        <p class="txt-date"><span class="stl txtRed01">Date</span><span class="semicol txtRed01">:</span> 28 September 2016</p>
+                                                                        <p class="txt-ins"><span class="stl txtRed01">Instructor</span><span class="semicol txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
+                                                                        <p class="txt-location"><span class="stl txtRed01">Location</span><span class="semicol txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
                                                                     </div>
-                                                                    <p class="txt-fee">
+                                                                    <div class="txt-fee">
                                                                         <div class="flL">
-                                                                            <p><span class="txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700 THB</span></p>
+                                                                            <p><span class="stl txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700</span><span class="txt-thb"> THB</span></p>
                                                                         </div>
-                                                                        <a href="#" class="linkView01">View Details</a>
-                                                                    </p>
+                                                                        <a href="#" class="linkView01">View Details <span class="icoLinkR"><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i></span></a>
+                                                                    </div>
                                                                 </div>
                                                             </li>
                                                             <li class="item">
@@ -484,16 +508,16 @@
                                                                         ameturna professional.
                                                                     </p>
                                                                     <div class="txt-instructor">
-                                                                        <p class="txt-date"><span class="txtRed01">Date</span><span class="txtRed01">:</span> 28 September 2016</p>
-                                                                        <p><span class="txtRed01">Instructor</span><span class="txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
-                                                                        <p><span class="txtRed01">Location</span><span class="txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
+                                                                        <p class="txt-date"><span class="stl txtRed01">Date</span><span class="semicol txtRed01">:</span> 28 September 2016</p>
+                                                                        <p class="txt-ins"><span class="stl txtRed01">Instructor</span><span class="semicol txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
+                                                                        <p class="txt-location"><span class="stl txtRed01">Location</span><span class="semicol txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
                                                                     </div>
-                                                                    <p class="txt-fee">
+                                                                    <div class="txt-fee">
                                                                         <div class="flL">
-                                                                            <p><span class="txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700 THB</span></p>
+                                                                            <p><span class="stl txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700</span><span class="txt-thb"> THB</span></p>
                                                                         </div>
-                                                                        <a href="#" class="linkView01">View Details</a>
-                                                                    </p>
+                                                                        <a href="#" class="linkView01">View Details <span class="icoLinkR"><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i></span></a>
+                                                                    </div>
                                                                 </div>
                                                             </li>
                                                             <li class="item">
@@ -521,16 +545,16 @@
                                                                         ameturna professional.
                                                                     </p>
                                                                     <div class="txt-instructor">
-                                                                        <p class="txt-date"><span class="txtRed01">Date</span><span class="txtRed01">:</span> 28 September 2016</p>
-                                                                        <p><span class="txtRed01">Instructor</span><span class="txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
-                                                                        <p><span class="txtRed01">Location</span><span class="txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
+                                                                        <p class="txt-date"><span class="stl txtRed01">Date</span><span class="semicol txtRed01">:</span> 28 September 2016</p>
+                                                                        <p class="txt-ins"><span class="stl txtRed01">Instructor</span><span class="semicol txtRed01">:</span> ผศ.ดร.บุปผา ลาภะวัฒนาพันธ์</p>
+                                                                        <p class="txt-location"><span class="stl txtRed01">Location</span><span class="semicol txtRed01">:</span> ibis Bangkok Riverside Hotel</p>
                                                                     </div>
-                                                                    <p class="txt-fee">
+                                                                    <div class="txt-fee">
                                                                         <div class="flL">
-                                                                            <p><span class="txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700 THB</span></p>
+                                                                            <p><span class="stl txtRed01">FEE</span><span class="txtRed01">:</span> <span class="txt-price">5,700</span><span class="txt-thb"> THB</span></p>
                                                                         </div>
-                                                                        <a href="#" class="linkView01">View Details</a>
-                                                                    </p>
+                                                                        <a href="#" class="linkView01">View Details <span class="icoLinkR"><i class="fa fa-angle-right fa-lg" aria-hidden="true"></i></span></a>
+                                                                    </div>
                                                                 </div>
                                                             </li>
                                                         </ul>
