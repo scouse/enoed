@@ -6,7 +6,7 @@
 
 .boxSliderVideo01 {}
 .boxSliderVideo01 li { overflow: hidden;}
-.boxSliderVideo01 .item>.flL { width: 70%;}
+.boxSliderVideo01 .item>.flL { width: 69%;}
 .boxSliderVideo01 .item>.flL>img { }
 .boxSliderVideo01 .item>.flR { width: 30%;}
 .boxSliderVideo01.owl-mod01 .owl-controls { width: 70%; margin-top: -120px;}
@@ -42,10 +42,10 @@
 .sliderInhouse .ttl_top { font-family: Montserrat; position: absolute; left: 0; top: 23px; padding: 10px 75px 10px 35px; font-size: 35px;
  color: #fff; text-shadow: 1px 0px 10px rgba(100, 100, 100, 1); background: url(../images/common/bg-title01.png) right center no-repeat;}
 
-#g04 .boxLink01 a { color: #fff;}
-#g04 .linkExplore02 { color: #fff;}
-#g04 .linkExploreWrap { width: 88%;  margin: 0 6% 15px 6%;}
-#g04 .h2_basic01 {color: #fff; border-bottom: 2px solid #FFF; }
+.sectionPublic .boxLink01 a { color: #fff;}
+.sectionPublic .linkExplore02 { color: #fff;}
+.sectionPublic .linkExploreWrap { width: 88%;  margin: 0 6% 15px 6%;}
+.sectionPublic .h2_basic01 {color: #fff; border-bottom: 2px solid #FFF; }
 
 #listPublicTrain01 .owl-controls .owl-prev { width: 60px; height: 110px; background: url(../images/common/btn-slider-prev02.png) center center no-repeat; text-indent: -1000%;
 position: absolute; left: -45px; top: 160px;}

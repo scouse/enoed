@@ -741,6 +741,35 @@ a.btn-back01 { overflow: hidden; display: inline-block; background: #fff; color:
 .box-shadow-35 { -webkit-box-shadow: 0px 0px 20px 1px rgba(138,138,138,0.35);-moz-box-shadow: 0px 0px 20px 1px rgba(138,138,138,0.35);box-shadow: 0px 0px 20px 1px rgba(138,138,138,0.35);}
 
 
+.input-type01 { background: none; border: none; color: #6d6e71; }
+.select-style01 { padding: 10px 50px 10px 15px; margin: 0; font-size: 16px; 
+-webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; background: #f8f8f8; color:#888; border: 1px solid #ddd; outline:none;
+display: inline-block; -webkit-appearance:none; -moz-appearance:none; appearance:none; cursor:pointer;
+background: rgb(255,255,255); background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(247,247,247,1) 50%, rgba(229,229,229,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(247,247,247,1) 50%,rgba(229,229,229,1) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(247,247,247,1) 50%,rgba(229,229,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+
+}
+
+.boxSearchFilter label {position:relative}
+.boxSearchFilter label:after {  content:"\f105"; font: normal normal normal 26px/1 FontAwesome; color:#C61923; 
+-webkit-transform:rotate(90deg); -moz-transform:rotate(90deg); -ms-transform:rotate(90deg); transform:rotate(90deg);
+right: 12px; top: -4px; padding: 6px 10px; border-bottom:1px solid #ddd; position:absolute; pointer-events:none;}
+label.select-popular:after { right: 6px;}
+
+/* search */
+.boxInputSearch01 { overflow: hidden; font-family: Montserrat; font-size: 34px; font-weight: bold; color: #C61923; padding: 20px 0 5px 0;}
+.boxInputSearch01 span { float: left; display: block; padding-right: 2%; line-height: 1.1;}
+.boxInputSearch01 .input-type01 { float: left; width: 80%; display: block; padding: 0 2%; font-weight: bold;}
+.boxSearchResult { overflow: hidden; padding: 20px 0 15px 0; font-size: 24px; font-weight: bold;}
+.boxSearchResult .txtResult01 { float: left;}
+.boxSearchResult .txtTotalResult { float: right; font-weight: normal;}
+
+.boxSearchFilter { font-size: 18px; padding: 15px 0 25px 0;}
+.boxSearchFilter span { margin-right: 10px;}
+.boxSearchFilter label { margin-right: 15px;}
+
 
 
 
@@ -862,6 +891,15 @@ a.btn-back01 {padding: 3px 20px 3px 20px;}
 .linkExplore02 {display: none;}
 .list_basic04 li { width: 97.7%;}
 .list_basic04 li .ttl { font-size: 22px;}
+
+.boxSearchResult { font-size: 20px;}
+.boxSearchResult .txtResult01 { }
+.boxSearchResult .txtTotalResult { }
+.boxInputSearch01 { font-family: Montserrat; font-size: 28px;}
+.boxInputSearch01 span { line-height: 1.1;}
+.boxInputSearch01 .input-type01 { max-width: 70%;}
+
+.boxSearchFilter { }
     
 }
 
@@ -874,6 +912,10 @@ a.btn-back01 {padding: 3px 20px 3px 20px;}
     #footerLinks ul li a { font-weight: normal;}
     .btn-learMore01 { font-size: 12px; }
     .btn-learMore01 span.ico { padding: 4px 12px 4px 15px;}
+    
+    .boxInputSearch01 .input-type01 { max-width: 65%;}
+    .select-style01 { font-size: 14px; margin-bottom: 10px;}
+    .boxSearchFilter span { display: block; margin-bottom: 10px;}
 }
 
 @media only screen and (max-width: 600px) {
@@ -908,6 +950,10 @@ a.btn-back01 {padding: 3px 20px 3px 20px;}
     
     .btn-learMore01 { font-size: 10px; right: 3%;}
     .btn-learMore01 span.txt { padding: 5px 10px 3px 10px;}
+    
+    .boxInputSearch01 { font-size: 24px;}
+    .boxInputSearch01 .input-type01 { width: 100%;}
+    .boxSearchResult { padding: 15px 0 10px 0;}
 }
 
 @media only screen and (max-width: 370px){

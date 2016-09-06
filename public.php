@@ -69,7 +69,7 @@
 
 			<div id="contents" class="clearfix">
                             <div id="main01">
-                                <div class="sectionTop01 bg-style02">
+                                <div class="sectionTop01 bg-style02 sectionPublic">
                                     <div class="boxLink01 clearfix bgN">
                                         <div href="#" class="breadcrumb flL">
                                             <a href="index.php" class="home"><img src="assets/images/common/ico-home02.png" alt="Home" class="img-responsive"/> /</a>
