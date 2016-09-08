@@ -100,9 +100,9 @@
 
         <ul class="list_submenu02">
             <li><a href="#" class="contactnow radius20">CONTACT NOW</a></li>
-            <li><a href="#" class="tel">02-999-9999</a></li>
+            <li><a tel="#" class="tel">02-999-9999</a></li>
             <li><a href="#" class="email">Email us</a></li>
-            <li><a href="#" class="contact">Contact Us</a></li>
+            <li><a href="contactus.php" class="contact">Contact Us</a></li>
             <li><a href="#" class="info">Get More Info</a></li>
         </ul>
     </div>

@@ -38,6 +38,7 @@ sub   { font-size: 78%; vertical-align: baseline;}
 * html .blockC { margin-right: 0; margin-left: 0;}
 .blockR { margin-left: auto; text-align: left;}
 * html .blockR { margin-left: 0;}
+.inline-block { display: inline-block;}
 
 /* !Width ------------------------------------------------------------------- */
 /* 960px Grid */

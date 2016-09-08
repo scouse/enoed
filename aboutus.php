@@ -47,15 +47,15 @@
 
 			<div id="contents" class="clearfix">
                             <div id="main01">
-                                <div class="sectionTop01 bg-style03 sectionPublic">
-                                    <div class="boxLink01 clearfix bgN">
-                                        <div href="#" class="breadcrumb flL">
-                                            <a href="index.php" class="home"><img src="assets/images/common/ico-home02.png" alt="Home" class="img-responsive"/> /</a>
-                                            <a href="#">About Us</a>
+                                <div class="sectionTop01 sectionPublic">
+                                    <div class="sectionIn02 bg-style03">
+                                        <div class="boxLink01 clearfix bgN">
+                                            <div href="#" class="breadcrumb flL">
+                                                <a href="index.php" class="home"><img src="assets/images/common/ico-home02.png" alt="Home" class="img-responsive"/> /</a>
+                                                <a href="#">About Us</a>
+                                            </div>
+                                            <a href="#" class="flR">OUR HISTORY &amp; SPECIALIST</a>
                                         </div>
-                                        <a href="#" class="flR">OUR HISTORY &amp; SPECIALIST</a>
-                                    </div>
-                                    <div class="sectionIn02">
                                         <div class="boxPbTrainWrap01">
                                             <div class="linkExploreWrap cleafix">
                                                 <h2 class="h2_basic01">our company</h2>
@@ -116,7 +116,7 @@
                                             <div class="boxAbout02">
                                                 <h3 class="h3_basic02">specialist</h3>
                                                 <div class="boxDetail">
-                                                    <p class="boxImgL"><img src="assets/images/aboutus/DeOne-Web-UI-06-AboutUS-V4_13.jpg" class="img-responsive" alt=""/></p>
+                                                    <p class="boxImgL taC"><img src="assets/images/aboutus/DeOne-Web-UI-06-AboutUS-V4_13.jpg" class="img-responsive" alt=""/></p>
                                                     <p class="txt-style01">
                                                         New country business Full detials & information ; New counFull detials & information ; 
                                                         New coun country business Full detials & information ;New country businessgravida 
@@ -176,7 +176,7 @@
                                                                     <input type="text" name="tel" class="input-style01" />
                                                                 </label>
                                                             </div>
-                                                            <div class="row">
+                                                            <div class="row mb30">
                                                                 <p class="ttlForm01">Message <span class="fzS">(required)</span></p>
                                                                 <label>
                                                                     <textarea name="msg" id="msg" class="textarea-style01" cols="30" rows="10"></textarea>
@@ -187,8 +187,8 @@
                                                                     <input type='file'  name="file" class="input-file-style01" />
                                                                 </div>
                                                                 <div class="flR">
-                                                                    <button type="reset" class="input-reset01">RESET</button>
-                                                                    <button type="submit" class="input-submit01">SUBMIT</button>
+                                                                    <button type="reset" class="input-reset01 box-shadow-35">RESET</button>
+                                                                    <button type="submit" class="input-submit01 box-shadow-35">SUBMIT</button>
                                                                 </div>
                                                                 
                                                             </div>
@@ -196,8 +196,8 @@
                                                     </div>
                                                     <div class="colR">
                                                         <div class="boxHiring01">
-                                                            <div class="row">
-                                                                <p class="ttlHiring01">NOW HIRING</p>
+                                                            <div class="row bd-bottom01">
+                                                                <p class="ttlHiring01 bd-bottom01">NOW HIRING</p>
                                                                 <ul class="listHiring01">
                                                                     <li><a href="#">Graphic Designer</a></li>
                                                                     <li><a href="#">Customer Service</a></li>
@@ -205,12 +205,12 @@
                                                                     <li><a href="#">Senior Accounting Manager</a></li>
                                                                     <li><a href="#">Business Analyst</a></li>
                                                                 </ul>
-                                                                <p class="txtUpdate">latest update : <span class="fzL">01 SEP 2016</span></p>
+                                                                <p class="txtUpdate taR mb10">latest update : <span class="fzL">01 SEP 2016</span></p>
                                                             </div>
-                                                            <div class="row">
+                                                            <div class="row bd-bottom01">
                                                                 <p class="ttlHiring01">Direct Contact</p>
-                                                                <p class="txt-hiring01">
-                                                                    <span>HR</span>: hr@deonetraining.com
+                                                                <p class="txt-hiring01 mb25">
+                                                                    <span class="heading">HR</span><span class="mr05">:</span>  hr@deonetraining.com
                                                                 </p>
                                                             </div>
                                                             <div class="row">
