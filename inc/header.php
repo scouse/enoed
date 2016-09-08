@@ -32,13 +32,13 @@
                     <div id="menuMobileTemplate">
                         <ul>
                             <li><a href="#"><img src="assets/images/common/ico-close01.png" /></a></li>
-                            <li><a href="/index.php">Home</a></li>
-                            <li><a href="#">Signature</a></li>
-                            <li><a href="#">In House</a></li>
-                            <li><a href="#">Public</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="signature.php">Signature</a></li>
+                            <li><a href="inhouse.php">In House</a></li>
+                            <li><a href="public.php">Public</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="aboutus.php">About Us</a></li>
+                            <li><a href="contactus.php">Contact Us</a></li>
                             </li>
                         </ul>
                     <!-- menuMobile--></div>
