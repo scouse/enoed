@@ -75,19 +75,19 @@
                                         <div class="boxInHouseSlider01 owl-mod01 sliderInhouse">
                                             <ul id="sliderTraining" class="listInhouse01 owl-carousel-inhouse01">
                                                 <li>
-                                                    <img src="assets/images/sidnature/DeOne-Web-UI-02-Signature-V4_03.jpg" alt="#" />
+                                                    <img src="assets/images/signature/DeOne-Web-UI-02-Signature-V4_03.jpg" alt="#" />
                                                     <a href="#" class="btn-learMore01 box-shadow-35"><span class="txt">LEARN MORE</span> <span class="ico"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span></a>
                                                 </li>
                                                 <li>
-                                                    <img src="assets/images/sidnature/DeOne-Web-UI-02-Signature-V4_03.jpg" alt="#" />
+                                                    <img src="assets/images/signature/DeOne-Web-UI-02-Signature-V4_03.jpg" alt="#" />
                                                     <a href="#" class="btn-learMore01 box-shadow-35"><span class="txt">LEARN MORE</span> <span class="ico"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span></a>
                                                 </li>
                                                 <li>
-                                                    <img src="assets/images/sidnature/DeOne-Web-UI-02-Signature-V4_03.jpg" alt="#" />
+                                                    <img src="assets/images/signature/DeOne-Web-UI-02-Signature-V4_03.jpg" alt="#" />
                                                     <a href="#" class="btn-learMore01 box-shadow-35"><span class="txt">LEARN MORE</span> <span class="ico"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span></a>
                                                 </li>
                                                 <li>
-                                                    <img src="assets/images/sidnature/DeOne-Web-UI-02-Signature-V4_03.jpg" alt="#" />
+                                                    <img src="assets/images/signature/DeOne-Web-UI-02-Signature-V4_03.jpg" alt="#" />
                                                     <a href="#" class="btn-learMore01 box-shadow-35"><span class="txt">LEARN MORE</span> <span class="ico"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span></a>
                                                 </li>
                                             </ul>
