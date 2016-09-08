@@ -24,9 +24,7 @@
 <script type="text/javascript" src="assets/js/common.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
-               
-//        $('#').matchHeight({byRow: true});
-        
+     
     });
 </script>
 </head>
@@ -38,7 +36,7 @@
 
 			<div id="contents" class="clearfix">
                             <div id="main01">
-                                <div class="sectionTop01">
+                                <div class="sectionTop01 bg-white">
                                     <div class="boxLink01 clearfix bgN">
                                         <div href="#" class="breadcrumb flL">
                                             <a href="index.php" class="home"><img src="assets/images/common/ico-home01.png" alt="Home" class="img-responsive"/> /</a>
@@ -157,7 +155,7 @@
                                                     </form>
                                                 </div>
                                                 <div class="colR">
-                                                    <div class="boxHiring01">
+                                                    <div class="boxHiring01 box-shadow-35">
                                                         <div class="row bd-bottom01">
                                                             <p class="bd-bottom01 taC mb20 pb10"><img src="assets/images/apply/logo-apply.png" alt="" class="img-responsive"/></p>
                                                             <div class="txt-hiring01 mb25">

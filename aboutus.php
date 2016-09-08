@@ -34,7 +34,6 @@
                 }
             }
         });
-//        $('#').matchHeight({byRow: true});
         
     });
 </script>
@@ -195,7 +194,7 @@
                                                         </form>
                                                     </div>
                                                     <div class="colR">
-                                                        <div class="boxHiring01">
+                                                        <div class="boxHiring01 box-shadow-35">
                                                             <div class="row bd-bottom01">
                                                                 <p class="ttlHiring01 bd-bottom01">NOW HIRING</p>
                                                                 <ul class="listHiring01">
